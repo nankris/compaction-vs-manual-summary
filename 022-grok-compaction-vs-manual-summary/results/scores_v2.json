@@ -1,0 +1,884 @@
+[
+ {
+  "arm": "auto",
+  "rep": 1,
+  "calls": 15,
+  "failed": 0,
+  "total_input": 692807,
+  "uncached_input": 257223,
+  "output": 15823,
+  "cost": 0.28123984,
+  "cost_t9_15": 0.20767064000000002,
+  "in_t9": 45577,
+  "quiz_pre": 24,
+  "quiz_post": 18,
+  "quiz_all": 42,
+  "inturn_all": 42,
+  "lost_vs_inturn": [],
+  "quiz_wrong": {},
+  "inturn_wrong": {},
+  "compaction": {
+   "01a13c06-fc6f-73a3-a886-6f49e1b0b1f1": [
+    {
+     "sessionUpdate": "auto_compact_started"
+    },
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "0b23aa34-f887-4afd-99be-06f6541ed9dc"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 60179,
+     "tokens_after": 10227
+    },
+    {
+     "sessionUpdate": "auto_compact_started"
+    },
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "8d5f4cff-bbb7-4c55-8ebf-0b6c042db4b8"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 51235,
+     "tokens_after": 10388
+    },
+    {
+     "sessionUpdate": "auto_compact_started"
+    },
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "b7dfd8e7-6e59-44d2-b99b-20e540b99880"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 63616,
+     "tokens_after": 12517
+    },
+    {
+     "sessionUpdate": "auto_compact_failed"
+    },
+    {
+     "sessionUpdate": "auto_compact_started"
+    },
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "ba253d34-4c23-4d29-ac56-65411973203b"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 52112,
+     "tokens_after": 7705
+    }
+   ]
+  },
+  "compaction_call": null,
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    14027
+   ],
+   [
+    2,
+    21189
+   ],
+   [
+    3,
+    28041
+   ],
+   [
+    4,
+    31239
+   ],
+   [
+    5,
+    33382
+   ],
+   [
+    6,
+    35430
+   ],
+   [
+    7,
+    37078
+   ],
+   [
+    8,
+    40887
+   ],
+   [
+    9,
+    45577
+   ],
+   [
+    10,
+    273666
+   ],
+   [
+    11,
+    23331
+   ],
+   [
+    12,
+    27021
+   ],
+   [
+    13,
+    30768
+   ],
+   [
+    14,
+    33647
+   ],
+   [
+    15,
+    17524
+   ]
+  ],
+  "compactions": 4,
+  "hidden_comp_lo": 0.12192162000000001,
+  "hidden_comp_hi": 0.23776404,
+  "cost_adj_lo": 0.40316146,
+  "cost_adj_hi": 0.5190038800000001
+ },
+ {
+  "arm": "auto",
+  "rep": 2,
+  "calls": 15,
+  "failed": 0,
+  "total_input": 648675,
+  "uncached_input": 236771,
+  "output": 9132,
+  "cost": 0.24965724,
+  "cost_t9_15": 0.19411892,
+  "in_t9": 43086,
+  "quiz_pre": 23,
+  "quiz_post": 18,
+  "quiz_all": 41,
+  "inturn_all": 41,
+  "lost_vs_inturn": [],
+  "quiz_wrong": {
+   "18": "27"
+  },
+  "inturn_wrong": {
+   "18": "27"
+  },
+  "compaction": {
+   "01a13c06-fccf-7100-a7ec-25ec7904ea99": [
+    {
+     "sessionUpdate": "auto_compact_started"
+    },
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "711a806f-266e-43d7-acb7-eb339e4718f3"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 53088,
+     "tokens_after": 9950
+    },
+    {
+     "sessionUpdate": "auto_compact_started"
+    },
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "592e2d04-56ed-453d-aefb-b6298ab27fdc"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 69608,
+     "tokens_after": 12885
+    },
+    {
+     "sessionUpdate": "auto_compact_started"
+    },
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "b91ba23f-fef3-475a-a35b-8ef9dba7bd85"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 51799,
+     "tokens_after": 10877
+    },
+    {
+     "sessionUpdate": "auto_compact_failed"
+    },
+    {
+     "sessionUpdate": "auto_compact_started"
+    },
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "3cd4b962-98a9-40c4-846c-9a1ed8c85f1e"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 51882,
+     "tokens_after": 7422
+    }
+   ]
+  },
+  "compaction_call": null,
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    14115
+   ],
+   [
+    2,
+    21378
+   ],
+   [
+    3,
+    28173
+   ],
+   [
+    4,
+    31512
+   ],
+   [
+    5,
+    33394
+   ],
+   [
+    6,
+    35163
+   ],
+   [
+    7,
+    36482
+   ],
+   [
+    8,
+    39368
+   ],
+   [
+    9,
+    43086
+   ],
+   [
+    10,
+    237395
+   ],
+   [
+    11,
+    22257
+   ],
+   [
+    12,
+    26148
+   ],
+   [
+    13,
+    29962
+   ],
+   [
+    14,
+    32853
+   ],
+   [
+    15,
+    17389
+   ]
+  ],
+  "compactions": 4,
+  "hidden_comp_lo": 0.12239744999999999,
+  "hidden_comp_hi": 0.23784972,
+  "cost_adj_lo": 0.37205469,
+  "cost_adj_hi": 0.48750696
+ },
+ {
+  "arm": "compact",
+  "rep": 1,
+  "calls": 15,
+  "failed": 0,
+  "total_input": 1327710,
+  "uncached_input": 216670,
+  "output": 7028,
+  "cost": 0.35054952,
+  "cost_t9_15": 0.29526416,
+  "in_t9": 20376,
+  "quiz_pre": 24,
+  "quiz_post": 17,
+  "quiz_all": 41,
+  "inturn_all": 41,
+  "lost_vs_inturn": [],
+  "quiz_wrong": {
+   "39": "95"
+  },
+  "inturn_wrong": {
+   "39": "95"
+  },
+  "compaction": {
+   "01a13bf6-c15b-7b92-8aaa-ffe1f235a9e2": [
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "9a39792f-5e20-400f-b59b-6b6c6e4f3dfb"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 20518,
+     "tokens_after": 7290
+    }
+   ]
+  },
+  "compaction_call": {
+   "exit": 0,
+   "latency": 51.56,
+   "cost": ""
+  },
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    14041
+   ],
+   [
+    2,
+    21193
+   ],
+   [
+    3,
+    27921
+   ],
+   [
+    4,
+    31294
+   ],
+   [
+    5,
+    33159
+   ],
+   [
+    6,
+    34933
+   ],
+   [
+    7,
+    36280
+   ],
+   [
+    8,
+    39516
+   ],
+   [
+    9,
+    20376
+   ],
+   [
+    10,
+    204007
+   ],
+   [
+    11,
+    186185
+   ],
+   [
+    12,
+    189794
+   ],
+   [
+    13,
+    193557
+   ],
+   [
+    14,
+    196554
+   ],
+   [
+    15,
+    98900
+   ]
+  ],
+  "compactions": 1,
+  "hidden_comp_lo": 0.01835966,
+  "hidden_comp_hi": 0.02882384,
+  "cost_adj_lo": 0.36890918,
+  "cost_adj_hi": 0.37937336
+ },
+ {
+  "arm": "compact",
+  "rep": 2,
+  "calls": 15,
+  "failed": 0,
+  "total_input": 1585184,
+  "uncached_input": 501408,
+  "output": 8866,
+  "cost": 0.543286,
+  "cost_t9_15": 0.45944132,
+  "in_t9": 20043,
+  "quiz_pre": 24,
+  "quiz_post": 18,
+  "quiz_all": 42,
+  "inturn_all": 42,
+  "lost_vs_inturn": [],
+  "quiz_wrong": {},
+  "inturn_wrong": {},
+  "compaction": {
+   "01a13bf6-c19e-7111-8d78-70ba574f23d5": [
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "459f123a-dc16-421f-80e9-7cee5597b737"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 21316,
+     "tokens_after": 7128
+    }
+   ]
+  },
+  "compaction_call": {
+   "exit": 0,
+   "latency": 31.72,
+   "cost": ""
+  },
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    14093
+   ],
+   [
+    2,
+    21527
+   ],
+   [
+    3,
+    28401
+   ],
+   [
+    4,
+    31856
+   ],
+   [
+    5,
+    34009
+   ],
+   [
+    6,
+    36068
+   ],
+   [
+    7,
+    37772
+   ],
+   [
+    8,
+    41063
+   ],
+   [
+    9,
+    20043
+   ],
+   [
+    10,
+    361097
+   ],
+   [
+    11,
+    207163
+   ],
+   [
+    12,
+    210826
+   ],
+   [
+    13,
+    214579
+   ],
+   [
+    14,
+    217470
+   ],
+   [
+    15,
+    109217
+   ]
+  ],
+  "compactions": 1,
+  "hidden_comp_lo": 0.018164839999999998,
+  "hidden_comp_hi": 0.029036,
+  "cost_adj_lo": 0.56145084,
+  "cost_adj_hi": 0.572322
+ },
+ {
+  "arm": "full",
+  "rep": 1,
+  "calls": 15,
+  "failed": 0,
+  "total_input": 1469256,
+  "uncached_input": 503368,
+  "output": 9693,
+  "cost": 0.52626492,
+  "cost_t9_15": 0.46840916,
+  "in_t9": 45172,
+  "quiz_pre": 24,
+  "quiz_post": 18,
+  "quiz_all": 42,
+  "inturn_all": 42,
+  "lost_vs_inturn": [],
+  "quiz_wrong": {},
+  "inturn_wrong": {},
+  "compaction": {
+   "01a13bf6-c1ad-71e2-97e7-58d29597bb74": []
+  },
+  "compaction_call": null,
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    14017
+   ],
+   [
+    2,
+    21159
+   ],
+   [
+    3,
+    27987
+   ],
+   [
+    4,
+    31720
+   ],
+   [
+    5,
+    33858
+   ],
+   [
+    6,
+    35927
+   ],
+   [
+    7,
+    37526
+   ],
+   [
+    8,
+    40928
+   ],
+   [
+    9,
+    45172
+   ],
+   [
+    10,
+    246420
+   ],
+   [
+    11,
+    210343
+   ],
+   [
+    12,
+    209764
+   ],
+   [
+    13,
+    205945
+   ],
+   [
+    14,
+    205605
+   ],
+   [
+    15,
+    102885
+   ]
+  ],
+  "compactions": 0,
+  "hidden_comp_lo": 0.0,
+  "hidden_comp_hi": 0.0,
+  "cost_adj_lo": 0.52626492,
+  "cost_adj_hi": 0.52626492
+ },
+ {
+  "arm": "full",
+  "rep": 2,
+  "calls": 15,
+  "failed": 0,
+  "total_input": 1452770,
+  "uncached_input": 532706,
+  "output": 9866,
+  "cost": 0.5387776,
+  "cost_t9_15": 0.4692102,
+  "in_t9": 44696,
+  "quiz_pre": 24,
+  "quiz_post": 18,
+  "quiz_all": 42,
+  "inturn_all": 42,
+  "lost_vs_inturn": [],
+  "quiz_wrong": {},
+  "inturn_wrong": {},
+  "compaction": {
+   "01a13bf6-c1a3-7f00-b388-3a3d14e707d2": []
+  },
+  "compaction_call": null,
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    14064
+   ],
+   [
+    2,
+    21284
+   ],
+   [
+    3,
+    28104
+   ],
+   [
+    4,
+    31377
+   ],
+   [
+    5,
+    33514
+   ],
+   [
+    6,
+    35584
+   ],
+   [
+    7,
+    37282
+   ],
+   [
+    8,
+    40551
+   ],
+   [
+    9,
+    44696
+   ],
+   [
+    10,
+    230205
+   ],
+   [
+    11,
+    210806
+   ],
+   [
+    12,
+    210103
+   ],
+   [
+    13,
+    206284
+   ],
+   [
+    14,
+    205955
+   ],
+   [
+    15,
+    102961
+   ]
+  ],
+  "compactions": 0,
+  "hidden_comp_lo": 0.0,
+  "hidden_comp_hi": 0.0,
+  "cost_adj_lo": 0.5387776,
+  "cost_adj_hi": 0.5387776
+ },
+ {
+  "arm": "manual",
+  "rep": 1,
+  "calls": 16,
+  "failed": 0,
+  "total_input": 1466584,
+  "uncached_input": 230232,
+  "output": 10553,
+  "cost": 0.38826572,
+  "cost_t9_15": 0.31702076,
+  "in_t9": 13753,
+  "quiz_pre": 24,
+  "quiz_post": 18,
+  "quiz_all": 42,
+  "inturn_all": 42,
+  "lost_vs_inturn": [],
+  "quiz_wrong": {},
+  "inturn_wrong": {},
+  "compaction": {
+   "01a13bf6-c14b-78f1-9da9-77bbccbdf06e": [],
+   "01a13bf8-3276-7d13-80cd-2cf381e59377": []
+  },
+  "compaction_call": null,
+  "handoff_chars": 884,
+  "per_turn_in": [
+   [
+    1,
+    14035
+   ],
+   [
+    2,
+    21216
+   ],
+   [
+    3,
+    28086
+   ],
+   [
+    4,
+    31740
+   ],
+   [
+    5,
+    33597
+   ],
+   [
+    6,
+    35592
+   ],
+   [
+    7,
+    36894
+   ],
+   [
+    8,
+    40370
+   ],
+   [
+    8.5,
+    21459
+   ],
+   [
+    9,
+    13753
+   ],
+   [
+    10,
+    339186
+   ],
+   [
+    11,
+    182242
+   ],
+   [
+    12,
+    186763
+   ],
+   [
+    13,
+    190609
+   ],
+   [
+    14,
+    193602
+   ],
+   [
+    15,
+    97440
+   ]
+  ],
+  "compactions": 0,
+  "hidden_comp_lo": 0.0,
+  "hidden_comp_hi": 0.0,
+  "cost_adj_lo": 0.38826572,
+  "cost_adj_hi": 0.38826572
+ },
+ {
+  "arm": "manual",
+  "rep": 2,
+  "calls": 16,
+  "failed": 0,
+  "total_input": 1359228,
+  "uncached_input": 272636,
+  "output": 10083,
+  "cost": 0.39068243999999996,
+  "cost_t9_15": 0.3006144,
+  "in_t9": 20295,
+  "quiz_pre": 23,
+  "quiz_post": 18,
+  "quiz_all": 41,
+  "inturn_all": 41,
+  "lost_vs_inturn": [],
+  "quiz_wrong": {
+   "18": "27"
+  },
+  "inturn_wrong": {
+   "18": "27 (`def base64_decode` in `encoding.py`)"
+  },
+  "compaction": {
+   "01a13bf6-c1a5-7b50-a998-3db298027b58": [],
+   "01a13bf8-775f-7362-abe9-3837dbc8e081": []
+  },
+  "compaction_call": null,
+  "handoff_chars": 1248,
+  "per_turn_in": [
+   [
+    1,
+    14017
+   ],
+   [
+    2,
+    21185
+   ],
+   [
+    3,
+    28025
+   ],
+   [
+    4,
+    31530
+   ],
+   [
+    5,
+    33595
+   ],
+   [
+    6,
+    35581
+   ],
+   [
+    7,
+    37212
+   ],
+   [
+    8,
+    40490
+   ],
+   [
+    8.5,
+    21537
+   ],
+   [
+    9,
+    20295
+   ],
+   [
+    10,
+    235466
+   ],
+   [
+    11,
+    180501
+   ],
+   [
+    12,
+    184121
+   ],
+   [
+    13,
+    187832
+   ],
+   [
+    14,
+    190790
+   ],
+   [
+    15,
+    97051
+   ]
+  ],
+  "compactions": 0,
+  "hidden_comp_lo": 0.0,
+  "hidden_comp_hi": 0.0,
+  "cost_adj_lo": 0.39068243999999996,
+  "cost_adj_hi": 0.39068243999999996
+ }
+]

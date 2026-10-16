@@ -1,0 +1,206 @@
+{
+ "arm": "auto",
+ "rep": 3,
+ "cwd": "/tmp/g022_auto_r3_b5gr9x25",
+ "turns": [
+  {
+   "turn": 1,
+   "label": "auto_r3_t01",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "F1: b\"itsdangerous.Signer\"\nF2: django-concat\nF3: concat, django-concat, hmac, none",
+   "input": 8312,
+   "cached": 5632,
+   "total_in": 13944,
+   "out": 348,
+   "reasoning": 282,
+   "cost": 0.00731952,
+   "latency": 7.06,
+   "exit": 0,
+   "ok": 1
+  },
+  {
+   "turn": 2,
+   "label": "auto_r3_t02",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "F4: b\"itsdangerous\"\nF5: json",
+   "input": 4578,
+   "cached": 16768,
+   "total_in": 21346,
+   "out": 163,
+   "reasoning": 114,
+   "cost": 0.00629612,
+   "latency": 4.5,
+   "exit": 0,
+   "ok": 1
+  },
+  {
+   "turn": 3,
+   "label": "auto_r3_t03",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "F6: SignatureExpired\nF7: UTC",
+   "input": 2310,
+   "cached": 25600,
+   "total_in": 27910,
+   "out": 147,
+   "reasoning": 100,
+   "cost": 0.00622268,
+   "latency": 10.0,
+   "exit": 0,
+   "ok": 1
+  },
+  {
+   "turn": 4,
+   "label": "auto_r3_t04",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "F8: b\".\"\nF9: zlib",
+   "input": 999,
+   "cached": 29952,
+   "total_in": 30951,
+   "out": 127,
+   "reasoning": 78,
+   "cost": 0.00603024,
+   "latency": 4.56,
+   "exit": 0,
+   "ok": 1
+  },
+  {
+   "turn": 5,
+   "label": "auto_r3_t05",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "F10: BadData\nF11: BadTimeSignature",
+   "input": 1149,
+   "cached": 31616,
+   "total_in": 32765,
+   "out": 101,
+   "reasoning": 52,
+   "cost": 0.00636208,
+   "latency": 5.66,
+   "exit": 0,
+   "ok": 1
+  },
+  {
+   "turn": 6,
+   "label": "auto_r3_t06",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "F12: >=3.10\nF13: 2024-04-16",
+   "input": 3284,
+   "cached": 33664,
+   "total_in": 36948,
+   "out": 195,
+   "reasoning": 107,
+   "cost": 0.0083538,
+   "latency": 4.84,
+   "exit": 0,
+   "ok": 1
+  },
+  {
+   "turn": 7,
+   "label": "auto_r3_t07",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "I'll read the signer tests and answer F14 and F15 from that file.F14: -\nF15: 11",
+   "input": 9523,
+   "cached": 30464,
+   "total_in": 39987,
+   "out": 359,
+   "reasoning": 252,
+   "cost": 0.01238688,
+   "latency": 74.59,
+   "exit": 0,
+   "ok": 1
+  },
+  {
+   "turn": 8,
+   "label": "auto_r3_t08",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "F16: 13\nF17: test_fallback_signers",
+   "input": 2313,
+   "cached": 20992,
+   "total_in": 23305,
+   "out": 263,
+   "reasoning": 207,
+   "cost": 0.005678,
+   "latency": 6.1,
+   "exit": 0,
+   "ok": 1
+  },
+  {
+   "turn": 9,
+   "label": "auto_r3_t09",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "F18: freezegun\nF19: date_signed",
+   "input": 1549,
+   "cached": 25344,
+   "total_in": 26893,
+   "out": 133,
+   "reasoning": 79,
+   "cost": 0.00563312,
+   "latency": 4.68,
+   "exit": 0,
+   "ok": 1
+  },
+  {
+   "turn": 10,
+   "label": "auto_r3_t10",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "F20: hashlib.sha512\nF21: three weeks",
+   "input": 1647,
+   "cached": 28032,
+   "total_in": 29679,
+   "out": 146,
+   "reasoning": 98,
+   "cost": 0.00618324,
+   "latency": 7.67,
+   "exit": 0,
+   "ok": 1
+  },
+  {
+   "turn": 11,
+   "label": "auto_r3_t11",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "from itsdangerous.exc import BadSignature, SignatureExpired\nfrom itsdangerous.url_safe import URLSafeTimedSerializer\n\ns = URLSafeTimedSerializer(\"secret-key\", salt=\"reset\")\ntoken = s.dumps({\"id\": 5})\ntry:\n    data = s.loads(token, max_age=3600)\nexcept SignatureExpired:\n    data = None\nexcept BadSignature:\n    data = None",
+   "input": 222,
+   "cached": 15488,
+   "total_in": 15710,
+   "out": 2070,
+   "reasoning": 1983,
+   "cost": 0.00700672,
+   "latency": 24.91,
+   "exit": 0,
+   "ok": 1
+  },
+  {
+   "turn": 12,
+   "label": "auto_r3_t12",
+   "session": "01a13c03-88fe-71f2-a40f-4fa4a2ae545a",
+   "text": "F1: b\"itsdangerous.Signer\"\nF2: django-concat\nF3: concat, django-concat, hmac, none\nF4: b\"itsdangerous\"\nF5: json\nF6: SignatureExpired\nF7: UTC\nF8: b\".\"\nF9: zlib\nF10: BadData\nF11: BadTimeSignature\nF12: >=3.10\nF13: 2024-04-16\nF14: -\nF15: 11\nF16: 13\nF17: test_fallback_signers\nF18: freezegun\nF19: date_signed\nF20: hashlib.sha512\nF21: three weeks",
+   "input": 16329,
+   "cached": 1152,
+   "total_in": 17481,
+   "out": 549,
+   "reasoning": 399,
+   "cost": 0.01241952,
+   "latency": 7.56,
+   "exit": 0,
+   "ok": 1
+  }
+ ],
+ "sessions": [
+  "01a13c03-88fe-71f2-a40f-4fa4a2ae545a"
+ ],
+ "compaction_events": {
+  "01a13c03-88fe-71f2-a40f-4fa4a2ae545a": [
+   {
+    "sessionUpdate": "auto_compact_started"
+   },
+   {
+    "sessionUpdate": "compaction_checkpoint",
+    "checkpoint_id": "27fdf500-9a68-4c51-a7f7-62890c86a80e"
+   },
+   {
+    "sessionUpdate": "auto_compact_completed",
+    "tokens_before": 21101,
+    "tokens_after": 7658
+   }
+  ]
+ }
+}

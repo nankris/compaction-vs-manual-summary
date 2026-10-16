@@ -1,0 +1,1142 @@
+[
+ {
+  "arm": "auto",
+  "rep": 1,
+  "calls": 12,
+  "failed": 0,
+  "total_input": 308543,
+  "uncached_input": 61247,
+  "output": 4370,
+  "cost": 0.09260308,
+  "cost_t7_12": 0.0513502,
+  "in_t12": 16141,
+  "in_t7": 38447,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13c02-30ce-71b2-aa34-982c40387e30": [
+    {
+     "sessionUpdate": "auto_compact_started"
+    },
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "fa6179e5-a4eb-4746-9f89-84ba8cb3f898"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 21284,
+     "tokens_after": 6758
+    }
+   ]
+  },
+  "compaction_call": null,
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    13945
+   ],
+   [
+    2,
+    21419
+   ],
+   [
+    3,
+    27995
+   ],
+   [
+    4,
+    31032
+   ],
+   [
+    5,
+    32872
+   ],
+   [
+    6,
+    37122
+   ],
+   [
+    7,
+    38447
+   ],
+   [
+    8,
+    21595
+   ],
+   [
+    9,
+    25173
+   ],
+   [
+    10,
+    27957
+   ],
+   [
+    11,
+    14845
+   ],
+   [
+    12,
+    16141
+   ]
+  ],
+  "compactions": 1,
+  "hidden_comp_lo": 0.0174046,
+  "hidden_comp_hi": 0.028259439999999997,
+  "cost_adj_lo": 0.11000768,
+  "cost_adj_hi": 0.12086252
+ },
+ {
+  "arm": "auto",
+  "rep": 2,
+  "calls": 12,
+  "failed": 0,
+  "total_input": 332423,
+  "uncached_input": 84743,
+  "output": 4783,
+  "cost": 0.10948816,
+  "cost_t7_12": 0.06104428,
+  "in_t12": 15949,
+  "in_t7": 39781,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13c03-88cd-74c3-aba4-14895ce05ee4": [
+    {
+     "sessionUpdate": "auto_compact_started"
+    },
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "efe85264-58b1-4489-a194-e8f8d449b936"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 22579,
+     "tokens_after": 7974
+    }
+   ]
+  },
+  "compaction_call": null,
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    13981
+   ],
+   [
+    2,
+    31325
+   ],
+   [
+    3,
+    26010
+   ],
+   [
+    4,
+    29038
+   ],
+   [
+    5,
+    30918
+   ],
+   [
+    6,
+    35318
+   ],
+   [
+    7,
+    39781
+   ],
+   [
+    8,
+    42117
+   ],
+   [
+    9,
+    25075
+   ],
+   [
+    10,
+    27867
+   ],
+   [
+    11,
+    15044
+   ],
+   [
+    12,
+    15949
+   ]
+  ],
+  "compactions": 1,
+  "hidden_comp_lo": 0.02010539,
+  "hidden_comp_hi": 0.03162068,
+  "cost_adj_lo": 0.12959355,
+  "cost_adj_hi": 0.14110884
+ },
+ {
+  "arm": "auto",
+  "rep": 3,
+  "calls": 12,
+  "failed": 0,
+  "total_input": 316919,
+  "uncached_input": 52215,
+  "output": 4601,
+  "cost": 0.08989192,
+  "cost_t7_12": 0.04930748,
+  "in_t12": 17481,
+  "in_t7": 39987,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13c03-88fe-71f2-a40f-4fa4a2ae545a": [
+    {
+     "sessionUpdate": "auto_compact_started"
+    },
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "27fdf500-9a68-4c51-a7f7-62890c86a80e"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 21101,
+     "tokens_after": 7658
+    }
+   ]
+  },
+  "compaction_call": null,
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    13944
+   ],
+   [
+    2,
+    21346
+   ],
+   [
+    3,
+    27910
+   ],
+   [
+    4,
+    30951
+   ],
+   [
+    5,
+    32765
+   ],
+   [
+    6,
+    36948
+   ],
+   [
+    7,
+    39987
+   ],
+   [
+    8,
+    23305
+   ],
+   [
+    9,
+    26893
+   ],
+   [
+    10,
+    29679
+   ],
+   [
+    11,
+    15710
+   ],
+   [
+    12,
+    17481
+   ]
+  ],
+  "compactions": 1,
+  "hidden_comp_lo": 0.01920949,
+  "hidden_comp_hi": 0.029970999999999998,
+  "cost_adj_lo": 0.10910141,
+  "cost_adj_hi": 0.11986292
+ },
+ {
+  "arm": "compact",
+  "rep": 1,
+  "calls": 13,
+  "failed": 0,
+  "total_input": 293573,
+  "uncached_input": 54853,
+  "output": 4449,
+  "cost": 0.0869584,
+  "cost_t7_12": 0.04374848,
+  "in_t12": 15139,
+  "in_t7": 16540,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13bea-1899-7e82-a38e-b9c9b23a0f29": [
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "62c99fbb-cfc6-4beb-97ac-653c4ad50410"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 19709,
+     "tokens_after": 5713
+    }
+   ]
+  },
+  "compaction_call": {
+   "exit": 0,
+   "latency": 35.24,
+   "cost": ""
+  },
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    12789
+   ],
+   [
+    2,
+    20283
+   ],
+   [
+    3,
+    27093
+   ],
+   [
+    4,
+    30278
+   ],
+   [
+    5,
+    32107
+   ],
+   [
+    6,
+    54733
+   ],
+   [
+    7,
+    16540
+   ],
+   [
+    8,
+    20135
+   ],
+   [
+    9,
+    23775
+   ],
+   [
+    10,
+    26552
+   ],
+   [
+    11,
+    14149
+   ],
+   [
+    12,
+    15139
+   ]
+  ],
+  "compactions": 1,
+  "hidden_comp_lo": 0.015005049999999999,
+  "hidden_comp_hi": 0.025056639999999998,
+  "cost_adj_lo": 0.10196345000000001,
+  "cost_adj_hi": 0.11201504000000001
+ },
+ {
+  "arm": "compact",
+  "rep": 2,
+  "calls": 13,
+  "failed": 0,
+  "total_input": 310504,
+  "uncached_input": 86248,
+  "output": 4345,
+  "cost": 0.10563596,
+  "cost_t7_12": 0.05700916,
+  "in_t12": 16456,
+  "in_t7": 19142,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13bed-3645-7a73-9ead-34a3a7fbe95e": [
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "69cd1e95-9d02-40ec-b887-6aae030e8499"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 17955,
+     "tokens_after": 7279
+    }
+   ]
+  },
+  "compaction_call": {
+   "exit": 0,
+   "latency": 52.9,
+   "cost": ""
+  },
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    13944
+   ],
+   [
+    2,
+    31210
+   ],
+   [
+    3,
+    25821
+   ],
+   [
+    4,
+    28768
+   ],
+   [
+    5,
+    30568
+   ],
+   [
+    6,
+    50456
+   ],
+   [
+    7,
+    19142
+   ],
+   [
+    8,
+    22815
+   ],
+   [
+    9,
+    26348
+   ],
+   [
+    10,
+    29137
+   ],
+   [
+    11,
+    15839
+   ],
+   [
+    12,
+    16456
+   ]
+  ],
+  "compactions": 1,
+  "hidden_comp_lo": 0.01790151,
+  "hidden_comp_hi": 0.02705856,
+  "cost_adj_lo": 0.12353747,
+  "cost_adj_hi": 0.13269452
+ },
+ {
+  "arm": "compact",
+  "rep": 3,
+  "calls": 13,
+  "failed": 0,
+  "total_input": 288362,
+  "uncached_input": 59626,
+  "output": 3431,
+  "cost": 0.08643004,
+  "cost_t7_12": 0.040749,
+  "in_t12": 15715,
+  "in_t7": 18455,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13bed-361a-7583-8d77-466ec325dcf7": [
+    {
+     "sessionUpdate": "compaction_checkpoint",
+     "checkpoint_id": "0e874eec-8656-4b8c-9b78-3ee802dfca60"
+    },
+    {
+     "sessionUpdate": "auto_compact_completed",
+     "tokens_before": 19517,
+     "tokens_after": 6619
+    }
+   ]
+  },
+  "compaction_call": {
+   "exit": 0,
+   "latency": 33.34,
+   "cost": ""
+  },
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    13942
+   ],
+   [
+    2,
+    21259
+   ],
+   [
+    3,
+    27753
+   ],
+   [
+    4,
+    30858
+   ],
+   [
+    5,
+    32677
+   ],
+   [
+    6,
+    36905
+   ],
+   [
+    7,
+    18455
+   ],
+   [
+    8,
+    21967
+   ],
+   [
+    9,
+    25520
+   ],
+   [
+    10,
+    28295
+   ],
+   [
+    11,
+    15016
+   ],
+   [
+    12,
+    15715
+   ]
+  ],
+  "compactions": 1,
+  "hidden_comp_lo": 0.01682065,
+  "hidden_comp_hi": 0.026774319999999997,
+  "cost_adj_lo": 0.10325069,
+  "cost_adj_hi": 0.11320436
+ },
+ {
+  "arm": "full",
+  "rep": 1,
+  "calls": 12,
+  "failed": 0,
+  "total_input": 412616,
+  "uncached_input": 61256,
+  "output": 3873,
+  "cost": 0.1092862,
+  "cost_t7_12": 0.06087768,
+  "in_t12": 24610,
+  "in_t7": 40803,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13bea-1897-79f1-ac22-1afd069b3cf9": []
+  },
+  "compaction_call": null,
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    12746
+   ],
+   [
+    2,
+    20337
+   ],
+   [
+    3,
+    27057
+   ],
+   [
+    4,
+    30238
+   ],
+   [
+    5,
+    32008
+   ],
+   [
+    6,
+    54556
+   ],
+   [
+    7,
+    40803
+   ],
+   [
+    8,
+    44601
+   ],
+   [
+    9,
+    48241
+   ],
+   [
+    10,
+    51009
+   ],
+   [
+    11,
+    26410
+   ],
+   [
+    12,
+    24610
+   ]
+  ],
+  "compactions": 0,
+  "hidden_comp_lo": 0.0,
+  "hidden_comp_hi": 0.0,
+  "cost_adj_lo": 0.1092862,
+  "cost_adj_hi": 0.1092862
+ },
+ {
+  "arm": "full",
+  "rep": 2,
+  "calls": 12,
+  "failed": 0,
+  "total_input": 426195,
+  "uncached_input": 62803,
+  "output": 4419,
+  "cost": 0.11349744,
+  "cost_t7_12": 0.06322368,
+  "in_t12": 25331,
+  "in_t7": 42114,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13bed-363d-71f1-a8f4-d02dc7a85a1c": []
+  },
+  "compaction_call": null,
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    13969
+   ],
+   [
+    2,
+    21337
+   ],
+   [
+    3,
+    28024
+   ],
+   [
+    4,
+    31282
+   ],
+   [
+    5,
+    33235
+   ],
+   [
+    6,
+    56488
+   ],
+   [
+    7,
+    42114
+   ],
+   [
+    8,
+    45807
+   ],
+   [
+    9,
+    49369
+   ],
+   [
+    10,
+    52190
+   ],
+   [
+    11,
+    27049
+   ],
+   [
+    12,
+    25331
+   ]
+  ],
+  "compactions": 0,
+  "hidden_comp_lo": 0.0,
+  "hidden_comp_hi": 0.0,
+  "cost_adj_lo": 0.11349744,
+  "cost_adj_hi": 0.11349744
+ },
+ {
+  "arm": "full",
+  "rep": 3,
+  "calls": 12,
+  "failed": 0,
+  "total_input": 404874,
+  "uncached_input": 47754,
+  "output": 4065,
+  "cost": 0.10147572,
+  "cost_t7_12": 0.0585582,
+  "in_t12": 23309,
+  "in_t7": 38247,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13bed-362b-7472-970a-5a0116b37ada": []
+  },
+  "compaction_call": null,
+  "handoff_chars": 0,
+  "per_turn_in": [
+   [
+    1,
+    13942
+   ],
+   [
+    2,
+    31102
+   ],
+   [
+    3,
+    25832
+   ],
+   [
+    4,
+    29064
+   ],
+   [
+    5,
+    30855
+   ],
+   [
+    6,
+    51125
+   ],
+   [
+    7,
+    38247
+   ],
+   [
+    8,
+    42032
+   ],
+   [
+    9,
+    45707
+   ],
+   [
+    10,
+    48507
+   ],
+   [
+    11,
+    25152
+   ],
+   [
+    12,
+    23309
+   ]
+  ],
+  "compactions": 0,
+  "hidden_comp_lo": 0.0,
+  "hidden_comp_hi": 0.0,
+  "cost_adj_lo": 0.10147572,
+  "cost_adj_hi": 0.10147572
+ },
+ {
+  "arm": "manual",
+  "rep": 1,
+  "calls": 13,
+  "failed": 0,
+  "total_input": 273840,
+  "uncached_input": 68272,
+  "output": 6110,
+  "cost": 0.09383592,
+  "cost_t7_12": 0.043202439999999995,
+  "in_t12": 13884,
+  "in_t7": 11712,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13bea-1892-7bd2-b488-475fc0ba3163": [],
+   "01a13beb-1b8a-7d21-8f80-26605ad50ce1": []
+  },
+  "compaction_call": null,
+  "handoff_chars": 888,
+  "per_turn_in": [
+   [
+    1,
+    12746
+   ],
+   [
+    2,
+    20103
+   ],
+   [
+    3,
+    26869
+   ],
+   [
+    4,
+    29854
+   ],
+   [
+    5,
+    31830
+   ],
+   [
+    6,
+    35985
+   ],
+   [
+    6.5,
+    19656
+   ],
+   [
+    7,
+    11712
+   ],
+   [
+    8,
+    16029
+   ],
+   [
+    9,
+    19790
+   ],
+   [
+    10,
+    22713
+   ],
+   [
+    11,
+    12669
+   ],
+   [
+    12,
+    13884
+   ]
+  ],
+  "compactions": 0,
+  "hidden_comp_lo": 0.0,
+  "hidden_comp_hi": 0.0,
+  "cost_adj_lo": 0.09383592,
+  "cost_adj_hi": 0.09383592
+ },
+ {
+  "arm": "manual",
+  "rep": 2,
+  "calls": 13,
+  "failed": 0,
+  "total_input": 295552,
+  "uncached_input": 64384,
+  "output": 8302,
+  "cost": 0.10001576,
+  "cost_t7_12": 0.04728312,
+  "in_t12": 16736,
+  "in_t7": 13019,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13bed-35f4-7851-a5f8-28369ddbb7c5": [],
+   "01a13bed-e83d-7c63-9560-e2b5331289c7": []
+  },
+  "compaction_call": null,
+  "handoff_chars": 944,
+  "per_turn_in": [
+   [
+    1,
+    13969
+   ],
+   [
+    2,
+    21463
+   ],
+   [
+    3,
+    28038
+   ],
+   [
+    4,
+    31068
+   ],
+   [
+    5,
+    32889
+   ],
+   [
+    6,
+    37174
+   ],
+   [
+    6.5,
+    20326
+   ],
+   [
+    7,
+    13019
+   ],
+   [
+    8,
+    18544
+   ],
+   [
+    9,
+    22335
+   ],
+   [
+    10,
+    25206
+   ],
+   [
+    11,
+    14785
+   ],
+   [
+    12,
+    16736
+   ]
+  ],
+  "compactions": 0,
+  "hidden_comp_lo": 0.0,
+  "hidden_comp_hi": 0.0,
+  "cost_adj_lo": 0.10001576,
+  "cost_adj_hi": 0.10001576
+ },
+ {
+  "arm": "manual",
+  "rep": 3,
+  "calls": 13,
+  "failed": 0,
+  "total_input": 310213,
+  "uncached_input": 73029,
+  "output": 6967,
+  "cost": 0.10419368,
+  "cost_t7_12": 0.05398792,
+  "in_t12": 14923,
+  "in_t7": 12801,
+  "quiz_pre": 13,
+  "quiz_post": 8,
+  "quiz_all": 21,
+  "inturn_all": 21,
+  "snippet": 6,
+  "snippet_checks": {
+   "cls": true,
+   "salt": true,
+   "max_age": true,
+   "expired": true,
+   "badsig": true,
+   "order": true
+  },
+  "quiz_wrong": {},
+  "compaction": {
+   "01a13bed-362e-7750-b912-c20867f87a75": [],
+   "01a13bee-164a-7502-a8a8-956b6ef44593": []
+  },
+  "compaction_call": null,
+  "handoff_chars": 495,
+  "per_turn_in": [
+   [
+    1,
+    13945
+   ],
+   [
+    2,
+    21360
+   ],
+   [
+    3,
+    28137
+   ],
+   [
+    4,
+    31441
+   ],
+   [
+    5,
+    33510
+   ],
+   [
+    6,
+    57036
+   ],
+   [
+    6.5,
+    20925
+   ],
+   [
+    7,
+    12801
+   ],
+   [
+    8,
+    17322
+   ],
+   [
+    9,
+    21051
+   ],
+   [
+    10,
+    23934
+   ],
+   [
+    11,
+    13828
+   ],
+   [
+    12,
+    14923
+   ]
+  ],
+  "compactions": 0,
+  "hidden_comp_lo": 0.0,
+  "hidden_comp_hi": 0.0,
+  "cost_adj_lo": 0.10419368,
+  "cost_adj_hi": 0.10419368
+ }
+]
