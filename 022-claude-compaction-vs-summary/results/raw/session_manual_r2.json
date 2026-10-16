@@ -1,0 +1,2337 @@
+{
+ "arm": "manual",
+ "rep": 2,
+ "calls": [
+  {
+   "label": "plant1",
+   "wall": 15.5,
+   "cost": 0.009748399999999999,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 2312,
+   "cr": 2264,
+   "out": 27,
+   "text": "Noted: the staging database listens on port 6543. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 1717,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.009748399999999999,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 2312,
+     "cache_read_input_tokens": 2264,
+     "output_tokens": 27,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 2312,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 27,
+       "cache_read_input_tokens": 2264,
+       "cache_creation_input_tokens": 2312,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 2312
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 27,
+      "cacheReadInputTokens": 2264,
+      "cacheCreationInputTokens": 2312,
+      "webSearchRequests": 0,
+      "costUSD": 0.009748399999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the staging database listens on port 6543. Ready for the next status log.",
+    "ttft_ms": 4618,
+    "type": "result",
+    "duration_ms": 4818,
+    "uuid": "bccdb9a8-1ca7-4be5-988a-da2e7a929290",
+    "ttft_stream_ms": 4529,
+    "time_to_request_ms": 3076,
+    "first_content_frame_ms": 4529,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 4578
+  },
+  {
+   "label": "plant2",
+   "wall": 10.1,
+   "cost": 0.018864099999999998,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 2077,
+   "cr": 4237,
+   "out": 38,
+   "text": "Noted: the on-call engineer for the payments service is Priya Ramanathan. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 3415,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.018864099999999998,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 2077,
+     "cache_read_input_tokens": 4237,
+     "output_tokens": 38,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 2077,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 38,
+       "cache_read_input_tokens": 4237,
+       "cache_creation_input_tokens": 2077,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 2077
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 4,
+      "outputTokens": 65,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 6501,
+      "cacheCreationInputTokens": 4389,
+      "webSearchRequests": 0,
+      "costUSD": 0.018864099999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the on-call engineer for the payments service is Priya Ramanathan. Ready for the next status log.",
+    "ttft_ms": 2461,
+    "type": "result",
+    "duration_ms": 2527,
+    "uuid": "4bfda093-a628-4626-b2d3-41d6ae56b09a",
+    "ttft_stream_ms": 2321,
+    "time_to_request_ms": 855,
+    "first_content_frame_ms": 2322,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 6316
+  },
+  {
+   "label": "plant3",
+   "wall": 7.4,
+   "cost": 0.026805,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1747,
+   "cr": 6289,
+   "out": 32,
+   "text": "Noted: the Q4 release codename is BLUE HERON. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 5082,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.026805,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1747,
+     "cache_read_input_tokens": 6289,
+     "output_tokens": 32,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1747,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 32,
+       "cache_read_input_tokens": 6289,
+       "cache_creation_input_tokens": 1747,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1747
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 6,
+      "outputTokens": 97,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 12790,
+      "cacheCreationInputTokens": 6136,
+      "webSearchRequests": 0,
+      "costUSD": 0.026805,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the Q4 release codename is BLUE HERON. Ready for the next status log.",
+    "ttft_ms": 2695,
+    "type": "result",
+    "duration_ms": 2728,
+    "uuid": "7e469b08-c041-434d-a065-4ef59c29d8de",
+    "ttft_stream_ms": 2594,
+    "time_to_request_ms": 1096,
+    "first_content_frame_ms": 2595,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 8038
+  },
+  {
+   "label": "plant4",
+   "wall": 7.2,
+   "cost": 0.0350741,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1771,
+   "cr": 8011,
+   "out": 38,
+   "text": "Noted: the feature flag gating the new checkout is ff_checkout_v7. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 6663,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.0350741,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1771,
+     "cache_read_input_tokens": 8011,
+     "output_tokens": 38,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1771,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 38,
+       "cache_read_input_tokens": 8011,
+       "cache_creation_input_tokens": 1771,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1771
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 8,
+      "outputTokens": 135,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 20801,
+      "cacheCreationInputTokens": 7907,
+      "webSearchRequests": 0,
+      "costUSD": 0.0350741,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the feature flag gating the new checkout is ff_checkout_v7. Ready for the next status log.",
+    "ttft_ms": 2617,
+    "type": "result",
+    "duration_ms": 2690,
+    "uuid": "584924b8-1252-4586-929f-42c7005087a8",
+    "ttft_stream_ms": 2504,
+    "time_to_request_ms": 1146,
+    "first_content_frame_ms": 2505,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 9784
+  },
+  {
+   "label": "plant5",
+   "wall": 4.5,
+   "cost": 0.0435078,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1746,
+   "cr": 9757,
+   "out": 47,
+   "text": "Noted: the nightly backups go to the S3 bucket acme-bkp-ap-south-1-0419. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 8439,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.0435078,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1746,
+     "cache_read_input_tokens": 9757,
+     "output_tokens": 47,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1746,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 47,
+       "cache_read_input_tokens": 9757,
+       "cache_creation_input_tokens": 1746,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1746
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 10,
+      "outputTokens": 182,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 30558,
+      "cacheCreationInputTokens": 9653,
+      "webSearchRequests": 0,
+      "costUSD": 0.0435078,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the nightly backups go to the S3 bucket acme-bkp-ap-south-1-0419. Ready for the next status log.",
+    "ttft_ms": 2120,
+    "type": "result",
+    "duration_ms": 2241,
+    "uuid": "321758ce-f954-4fc6-b653-1da07d70a853",
+    "ttft_stream_ms": 1935,
+    "time_to_request_ms": 438,
+    "first_content_frame_ms": 1936,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 11505
+  },
+  {
+   "label": "plant6",
+   "wall": 10.1,
+   "cost": 0.0520876,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1757,
+   "cr": 11478,
+   "out": 40,
+   "text": "Noted: Node is pinned to 20.11.1 because 20.12 broke the build. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 10688,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.0520876,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1757,
+     "cache_read_input_tokens": 11478,
+     "output_tokens": 40,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1757,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 40,
+       "cache_read_input_tokens": 11478,
+       "cache_creation_input_tokens": 1757,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1757
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 12,
+      "outputTokens": 222,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 42036,
+      "cacheCreationInputTokens": 11410,
+      "webSearchRequests": 0,
+      "costUSD": 0.0520876,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: Node is pinned to 20.11.1 because 20.12 broke the build. Ready for the next status log.",
+    "ttft_ms": 3604,
+    "type": "result",
+    "duration_ms": 4143,
+    "uuid": "3c620987-dffd-4a79-8a51-37115beab90c",
+    "ttft_stream_ms": 3506,
+    "time_to_request_ms": 1816,
+    "first_content_frame_ms": 3531,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 13237
+  },
+  {
+   "label": "plant7",
+   "wall": 9.0,
+   "cost": 0.0606086,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1724,
+   "cr": 13210,
+   "out": 30,
+   "text": "Noted: the webhook sender's max retry count is 7. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 12588,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.0606086,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1724,
+     "cache_read_input_tokens": 13210,
+     "output_tokens": 30,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1724,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 30,
+       "cache_read_input_tokens": 13210,
+       "cache_creation_input_tokens": 1724,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1724
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 14,
+      "outputTokens": 252,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 55246,
+      "cacheCreationInputTokens": 13134,
+      "webSearchRequests": 0,
+      "costUSD": 0.0606086,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the webhook sender's max retry count is 7. Ready for the next status log.",
+    "ttft_ms": 2598,
+    "type": "result",
+    "duration_ms": 2898,
+    "uuid": "5a9c3220-913b-4a14-8865-0c9619501e56",
+    "ttft_stream_ms": 2572,
+    "time_to_request_ms": 1006,
+    "first_content_frame_ms": 2574,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 14936
+  },
+  {
+   "label": "plant8",
+   "wall": 14.9,
+   "cost": 0.0693915,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1717,
+   "cr": 14909,
+   "out": 42,
+   "text": "Noted: the 3 March incident was caused by an expired TLS cert on api-gw-2. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 14418,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.0693915,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1717,
+     "cache_read_input_tokens": 14909,
+     "output_tokens": 42,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1717,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 42,
+       "cache_read_input_tokens": 14909,
+       "cache_creation_input_tokens": 1717,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1717
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 16,
+      "outputTokens": 294,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 70155,
+      "cacheCreationInputTokens": 14851,
+      "webSearchRequests": 0,
+      "costUSD": 0.0693915,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the 3 March incident was caused by an expired TLS cert on api-gw-2. Ready for the next status log.",
+    "ttft_ms": 3082,
+    "type": "result",
+    "duration_ms": 3405,
+    "uuid": "ddc6c54b-43b3-4f53-b6e9-7a2fcf18645c",
+    "ttft_stream_ms": 2991,
+    "time_to_request_ms": 1465,
+    "first_content_frame_ms": 3005,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 16628
+  },
+  {
+   "label": "plant9",
+   "wall": 12.0,
+   "cost": 0.07882159999999999,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1834,
+   "cr": 16601,
+   "out": 43,
+   "text": "Noted: Zentrix Ltd has a custom rate limit of 1800 requests per minute. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 16448,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.07882159999999999,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1834,
+     "cache_read_input_tokens": 16601,
+     "output_tokens": 43,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1834,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 43,
+       "cache_read_input_tokens": 16601,
+       "cache_creation_input_tokens": 1834,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1834
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 18,
+      "outputTokens": 337,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 86756,
+      "cacheCreationInputTokens": 16685,
+      "webSearchRequests": 0,
+      "costUSD": 0.07882159999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: Zentrix Ltd has a custom rate limit of 1800 requests per minute. Ready for the next status log.",
+    "ttft_ms": 3407,
+    "type": "result",
+    "duration_ms": 3657,
+    "uuid": "6f963bcf-3d09-4255-9f8c-b1352944c4e5",
+    "ttft_stream_ms": 3285,
+    "time_to_request_ms": 1558,
+    "first_content_frame_ms": 3292,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 18437
+  },
+  {
+   "label": "plant10",
+   "wall": 9.6,
+   "cost": 0.08818259999999999,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1789,
+   "cr": 18410,
+   "out": 36,
+   "text": "Noted: the reindex-search cron job runs at 02:15 UTC. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 18572,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.08818259999999999,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1789,
+     "cache_read_input_tokens": 18410,
+     "output_tokens": 36,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1789,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 36,
+       "cache_read_input_tokens": 18410,
+       "cache_creation_input_tokens": 1789,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1789
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 20,
+      "outputTokens": 373,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 105166,
+      "cacheCreationInputTokens": 18474,
+      "webSearchRequests": 0,
+      "costUSD": 0.08818259999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the reindex-search cron job runs at 02:15 UTC. Ready for the next status log.",
+    "ttft_ms": 3082,
+    "type": "result",
+    "duration_ms": 3374,
+    "uuid": "eeae27a5-5ade-4b7b-9943-ac15885fc707",
+    "ttft_stream_ms": 2781,
+    "time_to_request_ms": 1151,
+    "first_content_frame_ms": 2782,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 20201
+  },
+  {
+   "label": "plant11",
+   "wall": 12.8,
+   "cost": 0.097712,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1792,
+   "cr": 20174,
+   "out": 34,
+   "text": "Noted: the Grafana dashboard ID for latency is 88213. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 20562,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.097712,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1792,
+     "cache_read_input_tokens": 20174,
+     "output_tokens": 34,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1792,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 34,
+       "cache_read_input_tokens": 20174,
+       "cache_creation_input_tokens": 1792,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1792
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 22,
+      "outputTokens": 407,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 125340,
+      "cacheCreationInputTokens": 20266,
+      "webSearchRequests": 0,
+      "costUSD": 0.097712,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the Grafana dashboard ID for latency is 88213. Ready for the next status log.",
+    "ttft_ms": 3529,
+    "type": "result",
+    "duration_ms": 3646,
+    "uuid": "28566d0e-1488-405d-920b-519a15dd713b",
+    "ttft_stream_ms": 3483,
+    "time_to_request_ms": 1685,
+    "first_content_frame_ms": 3484,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 21968
+  },
+  {
+   "label": "plant12",
+   "wall": 9.3,
+   "cost": 0.10749809999999999,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1787,
+   "cr": 21941,
+   "out": 44,
+   "text": "Noted: the legacy endpoint /v1/orders/export will be removed on 2026-11-30. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 22643,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.10749809999999999,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1787,
+     "cache_read_input_tokens": 21941,
+     "output_tokens": 44,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1787,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 44,
+       "cache_read_input_tokens": 21941,
+       "cache_creation_input_tokens": 1787,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1787
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 24,
+      "outputTokens": 451,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 147281,
+      "cacheCreationInputTokens": 22053,
+      "webSearchRequests": 0,
+      "costUSD": 0.10749809999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the legacy endpoint /v1/orders/export will be removed on 2026-11-30. Ready for the next status log.",
+    "ttft_ms": 3687,
+    "type": "result",
+    "duration_ms": 3985,
+    "uuid": "5f90d9eb-54c9-4ab5-becb-808284f8178c",
+    "ttft_stream_ms": 3636,
+    "time_to_request_ms": 1875,
+    "first_content_frame_ms": 3641,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 23730
+  },
+  {
+   "label": "plant13",
+   "wall": 12.0,
+   "cost": 0.11731439999999999,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1783,
+   "cr": 23703,
+   "out": 31,
+   "text": "Noted: the JWT signing key rotates every 45 days. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 24476,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.11731439999999999,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1783,
+     "cache_read_input_tokens": 23703,
+     "output_tokens": 31,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1783,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 31,
+       "cache_read_input_tokens": 23703,
+       "cache_creation_input_tokens": 1783,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1783
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 26,
+      "outputTokens": 482,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 170984,
+      "cacheCreationInputTokens": 23836,
+      "webSearchRequests": 0,
+      "costUSD": 0.11731439999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the JWT signing key rotates every 45 days. Ready for the next status log.",
+    "ttft_ms": 3866,
+    "type": "result",
+    "duration_ms": 4088,
+    "uuid": "f6a24d56-98ad-416a-b9c7-71522abe33b6",
+    "ttft_stream_ms": 3788,
+    "time_to_request_ms": 2180,
+    "first_content_frame_ms": 3792,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 25488
+  },
+  {
+   "label": "plant14",
+   "wall": 11.5,
+   "cost": 0.12707449999999998,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1735,
+   "cr": 25461,
+   "out": 27,
+   "text": "Noted: the default page size for the search API is 37. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 26338,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.12707449999999998,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1735,
+     "cache_read_input_tokens": 25461,
+     "output_tokens": 27,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1735,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 27,
+       "cache_read_input_tokens": 25461,
+       "cache_creation_input_tokens": 1735,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1735
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 28,
+      "outputTokens": 509,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 196445,
+      "cacheCreationInputTokens": 25571,
+      "webSearchRequests": 0,
+      "costUSD": 0.12707449999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the default page size for the search API is 37. Ready for the next status log.",
+    "ttft_ms": 3161,
+    "type": "result",
+    "duration_ms": 3398,
+    "uuid": "d172fe93-42f5-44be-b745-5527fa4b4762",
+    "ttft_stream_ms": 3128,
+    "time_to_request_ms": 1481,
+    "first_content_frame_ms": 3128,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 27198
+  },
+  {
+   "label": "plant15",
+   "wall": 9.2,
+   "cost": 0.13703359999999998,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 1717,
+   "cr": 27171,
+   "out": 37,
+   "text": "Noted: the Pune warehouse has the internal site code PNQ-W3. Ready for the next status log.",
+   "raw": {
+    "duration_api_ms": 28130,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.13703359999999998,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1717,
+     "cache_read_input_tokens": 27171,
+     "output_tokens": 37,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1717,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 37,
+       "cache_read_input_tokens": 27171,
+       "cache_creation_input_tokens": 1717,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1717
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 30,
+      "outputTokens": 546,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 223616,
+      "cacheCreationInputTokens": 27288,
+      "webSearchRequests": 0,
+      "costUSD": 0.13703359999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the Pune warehouse has the internal site code PNQ-W3. Ready for the next status log.",
+    "ttft_ms": 3465,
+    "type": "result",
+    "duration_ms": 3649,
+    "uuid": "8cd63221-c897-4359-a950-f0391d05213a",
+    "ttft_stream_ms": 3388,
+    "time_to_request_ms": 1849,
+    "first_content_frame_ms": 3388,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 28890
+  },
+  {
+   "label": "handoff",
+   "wall": 7.7,
+   "cost": 0.14618189999999998,
+   "session": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+   "inp": 2,
+   "cw": 157,
+   "cr": 28863,
+   "out": 563,
+   "text": "**Handoff note: project-notes session**\n\n**Session format:** Each user turn is a pasted \"Status log #N\" made mostly of filler words, with one KEY FACT embedded. Reply in at most 2 sentences, briefly acknowledging the key fact. Logs #1\u2013#15 have been received and acknowledged.\n\n**Key facts recorded (verbatim):**\n1. The staging database listens on port 6543.\n2. The on-call engineer for the payments service is Priya Ramanathan.\n3. Our release codename for Q4 is BLUE HERON.\n4. The feature flag that gates the new checkout is ff_checkout_v7.\n5. The S3 bucket for nightly backups is acme-bkp-ap-south-1-0419.\n6. We pinned Node to version 20.11.1 because 20.12 broke our build.\n7. The max retry count for the webhook sender is 7.\n8. The incident from 3 March was caused by an expired TLS cert on api-gw-2.\n9. Customer Zentrix Ltd has a custom rate limit of 1800 requests per minute.\n10. The cron job reindex-search runs at 02:15 UTC.\n11. Our Grafana dashboard ID for latency is 88213.\n12. The legacy endpoint /v1/orders/export will be removed on 2026-11-30.\n13. The JWT signing key rotates every 45 days.\n14. The default page size for the search API is 37.\n15. The warehouse in Pune has the internal site code PNQ-W3.\n\n**Context:** Working directory is /workspace/work/tig/022-claude-compaction-vs-summary/work (git repo, branch master, main branch is main). No files were changed and no tools were used so far.",
+   "raw": {
+    "duration_api_ms": 32293,
+    "stop_reason": "end_turn",
+    "session_id": "f001f1cc-f25f-42a3-8fb3-0820bd597265",
+    "total_cost_usd": 0.14618189999999998,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 157,
+     "cache_read_input_tokens": 28863,
+     "output_tokens": 563,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 157,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 563,
+       "cache_read_input_tokens": 28863,
+       "cache_creation_input_tokens": 157,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 157
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 32,
+      "outputTokens": 1109,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 252479,
+      "cacheCreationInputTokens": 27445,
+      "webSearchRequests": 0,
+      "costUSD": 0.14618189999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "**Handoff note: project-notes session**\n\n**Session format:** Each user turn is a pasted \"Status log #N\" made mostly of filler words, with one KEY FACT embedded. Reply in at most 2 sentences, briefly acknowledging the key fact. Logs #1\u2013#15 have been received and acknowledged.\n\n**Key facts recorded (verbatim):**\n1. The staging database listens on port 6543.\n2. The on-call engineer for the payments service is Priya Ramanathan.\n3. Our release codename for Q4 is BLUE HERON.\n4. The feature flag that gates the new checkout is ff_checkout_v7.\n5. The S3 bucket for nightly backups is acme-bkp-ap-south-1-0419.\n6. We pinned Node to version 20.11.1 because 20.12 broke our build.\n7. The max retry count for the webhook sender is 7.\n8. The incident from 3 March was caused by an expired TLS cert on api-gw-2.\n9. Customer Zentrix Ltd has a custom rate limit of 1800 requests per minute.\n10. The cron job reindex-search runs at 02:15 UTC.\n11. Our Grafana dashboard ID for latency is 88213.\n12. The legacy endpoint /v1/orders/export will be removed on 2026-11-30.\n13. The JWT signing key rotates every 45 days.\n14. The default page size for the search API is 37.\n15. The warehouse in Pune has the internal site code PNQ-W3.\n\n**Context:** Working directory is /workspace/work/tig/022-claude-compaction-vs-summary/work (git repo, branch master, main branch is main). No files were changed and no tools were used so far.",
+    "ttft_ms": 4466,
+    "type": "result",
+    "duration_ms": 4540,
+    "uuid": "470d57c5-fd8c-4942-bc88-a044b484d7bc",
+    "ttft_stream_ms": 1665,
+    "time_to_request_ms": 379,
+    "first_content_frame_ms": 1665,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 29022
+  },
+  {
+   "label": "fresh_seed",
+   "wall": 5.2,
+   "cost": 0.0058724,
+   "session": "534cbc0d-7499-4f34-b6af-db8c2d8850fd",
+   "inp": 2,
+   "cw": 1218,
+   "cr": 2264,
+   "out": 77,
+   "text": "Ready to continue: I have all 15 key facts from logs #1\u2013#15 on record, from the staging DB port (6543) through the Pune warehouse site code (PNQ-W3). Send Status log #16 whenever you're ready.",
+   "raw": {
+    "duration_api_ms": 2118,
+    "stop_reason": "end_turn",
+    "session_id": "534cbc0d-7499-4f34-b6af-db8c2d8850fd",
+    "total_cost_usd": 0.0058724,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1218,
+     "cache_read_input_tokens": 2264,
+     "output_tokens": 77,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1218,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 77,
+       "cache_read_input_tokens": 2264,
+       "cache_creation_input_tokens": 1218,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1218
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 77,
+      "cacheReadInputTokens": 2264,
+      "cacheCreationInputTokens": 1218,
+      "webSearchRequests": 0,
+      "costUSD": 0.0058724,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Ready to continue: I have all 15 key facts from logs #1\u2013#15 on record, from the staging DB port (6543) through the Pune warehouse site code (PNQ-W3). Send Status log #16 whenever you're ready.",
+    "ttft_ms": 2469,
+    "type": "result",
+    "duration_ms": 2568,
+    "uuid": "4ffe6a3b-877b-4590-aa4e-78864510eeb9",
+    "ttft_stream_ms": 1823,
+    "time_to_request_ms": 407,
+    "first_content_frame_ms": 1823,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 3484
+  },
+  {
+   "label": "post1",
+   "wall": 5.6,
+   "cost": 0.0127987,
+   "session": "534cbc0d-7499-4f34-b6af-db8c2d8850fd",
+   "inp": 2,
+   "cw": 1552,
+   "cr": 3143,
+   "out": 40,
+   "text": "Log #16 received, and it contains no key fact, so nothing new to record. The 15 facts on file are unchanged.",
+   "raw": {
+    "duration_api_ms": 3887,
+    "stop_reason": "end_turn",
+    "session_id": "534cbc0d-7499-4f34-b6af-db8c2d8850fd",
+    "total_cost_usd": 0.0127987,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1552,
+     "cache_read_input_tokens": 3143,
+     "output_tokens": 40,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1552,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 40,
+       "cache_read_input_tokens": 3143,
+       "cache_creation_input_tokens": 1552,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1552
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 4,
+      "outputTokens": 117,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 5407,
+      "cacheCreationInputTokens": 2770,
+      "webSearchRequests": 0,
+      "costUSD": 0.0127987,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Log #16 received, and it contains no key fact, so nothing new to record. The 15 facts on file are unchanged.",
+    "ttft_ms": 2566,
+    "type": "result",
+    "duration_ms": 2672,
+    "uuid": "d75b4b21-662a-4d08-8396-f183841a9e92",
+    "ttft_stream_ms": 2370,
+    "time_to_request_ms": 866,
+    "first_content_frame_ms": 2370,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 4697
+  },
+  {
+   "label": "post2",
+   "wall": 4.1,
+   "cost": 0.0183057,
+   "session": "534cbc0d-7499-4f34-b6af-db8c2d8850fd",
+   "inp": 2,
+   "cw": 1179,
+   "cr": 4670,
+   "out": 32,
+   "text": "Log #17 received. It has no key fact, so the 15 recorded facts stay as they are.",
+   "raw": {
+    "duration_api_ms": 5452,
+    "stop_reason": "end_turn",
+    "session_id": "534cbc0d-7499-4f34-b6af-db8c2d8850fd",
+    "total_cost_usd": 0.0183057,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1179,
+     "cache_read_input_tokens": 4670,
+     "output_tokens": 32,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1179,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 32,
+       "cache_read_input_tokens": 4670,
+       "cache_creation_input_tokens": 1179,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1179
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 6,
+      "outputTokens": 149,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 10077,
+      "cacheCreationInputTokens": 3949,
+      "webSearchRequests": 0,
+      "costUSD": 0.0183057,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Log #17 received. It has no key fact, so the 15 recorded facts stay as they are.",
+    "ttft_ms": 1649,
+    "type": "result",
+    "duration_ms": 1804,
+    "uuid": "98184271-2477-4f5b-97be-e2a04264f82f",
+    "ttft_stream_ms": 1532,
+    "time_to_request_ms": 190,
+    "first_content_frame_ms": 1532,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 5851
+  },
+  {
+   "label": "post3",
+   "wall": 3.9,
+   "cost": 0.0238921,
+   "session": "534cbc0d-7499-4f34-b6af-db8c2d8850fd",
+   "inp": 2,
+   "cw": 1170,
+   "cr": 5824,
+   "out": 32,
+   "text": "Log #18 received. It has no key fact, so the 15 recorded facts are unchanged.",
+   "raw": {
+    "duration_api_ms": 6996,
+    "stop_reason": "end_turn",
+    "session_id": "534cbc0d-7499-4f34-b6af-db8c2d8850fd",
+    "total_cost_usd": 0.0238921,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1170,
+     "cache_read_input_tokens": 5824,
+     "output_tokens": 32,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1170,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 32,
+       "cache_read_input_tokens": 5824,
+       "cache_creation_input_tokens": 1170,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1170
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 8,
+      "outputTokens": 181,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 15901,
+      "cacheCreationInputTokens": 5119,
+      "webSearchRequests": 0,
+      "costUSD": 0.0238921,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Log #18 received. It has no key fact, so the 15 recorded facts are unchanged.",
+    "ttft_ms": 1734,
+    "type": "result",
+    "duration_ms": 1767,
+    "uuid": "18b2f94e-5dbb-417d-a7ea-99ec28cb9cbc",
+    "ttft_stream_ms": 1624,
+    "time_to_request_ms": 212,
+    "first_content_frame_ms": 1624,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 6996
+  },
+  {
+   "label": "quiz",
+   "wall": 5.3,
+   "cost": 0.028141,
+   "session": "534cbc0d-7499-4f34-b6af-db8c2d8850fd",
+   "inp": 2,
+   "cw": 397,
+   "cr": 6969,
+   "out": 196,
+   "text": "Q1: 6543\nQ2: Priya Ramanathan\nQ3: BLUE HERON\nQ4: ff_checkout_v7\nQ5: acme-bkp-ap-south-1-0419\nQ6: 20.11.1 (20.12 broke the build)\nQ7: 7\nQ8: An expired TLS cert on api-gw-2\nQ9: 1800 requests per minute\nQ10: 02:15 UTC\nQ11: 88213\nQ12: 2026-11-30\nQ13: Every 45 days\nQ14: 37\nQ15: PNQ-W3",
+   "raw": {
+    "duration_api_ms": 9159,
+    "stop_reason": "end_turn",
+    "session_id": "534cbc0d-7499-4f34-b6af-db8c2d8850fd",
+    "total_cost_usd": 0.028141,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 397,
+     "cache_read_input_tokens": 6969,
+     "output_tokens": 196,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 397,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 196,
+       "cache_read_input_tokens": 6969,
+       "cache_creation_input_tokens": 397,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 397
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 10,
+      "outputTokens": 377,
+      "thinkingTokens": 0,
+      "cacheReadInputTokens": 22870,
+      "cacheCreationInputTokens": 5516,
+      "webSearchRequests": 0,
+      "costUSD": 0.028141,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Q1: 6543\nQ2: Priya Ramanathan\nQ3: BLUE HERON\nQ4: ff_checkout_v7\nQ5: acme-bkp-ap-south-1-0419\nQ6: 20.11.1 (20.12 broke the build)\nQ7: 7\nQ8: An expired TLS cert on api-gw-2\nQ9: 1800 requests per minute\nQ10: 02:15 UTC\nQ11: 88213\nQ12: 2026-11-30\nQ13: Every 45 days\nQ14: 37\nQ15: PNQ-W3",
+    "ttft_ms": 2744,
+    "type": "result",
+    "duration_ms": 2777,
+    "uuid": "171ad990-c8a3-4a7a-80f5-1f9ea67ae6dd",
+    "ttft_stream_ms": 1826,
+    "time_to_request_ms": 623,
+    "first_content_frame_ms": 1827,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 7368
+  }
+ ]
+}

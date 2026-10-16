@@ -1,0 +1,2209 @@
+{
+ "arm": "compact",
+ "rep": 1,
+ "calls": [
+  {
+   "label": "plant1",
+   "wall": 15.8,
+   "cost": 0.0110704,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 2325,
+   "cr": 2264,
+   "out": 154,
+   "text": "Noted: the staging database listens on port 6543. The rest of log #1 was routine filler with no other key facts.",
+   "raw": {
+    "duration_api_ms": 2687,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.0110704,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 2325,
+     "cache_read_input_tokens": 2264,
+     "output_tokens": 154,
+     "output_tokens_details": {
+      "thinking_tokens": 116
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 2325,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 154,
+       "cache_read_input_tokens": 2264,
+       "cache_creation_input_tokens": 2325,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 2325
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 154,
+      "cacheReadInputTokens": 2264,
+      "cacheCreationInputTokens": 2325,
+      "webSearchRequests": 0,
+      "costUSD": 0.0110704,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 116,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the staging database listens on port 6543. The rest of log #1 was routine filler with no other key facts.",
+    "ttft_ms": 5084,
+    "type": "result",
+    "duration_ms": 5181,
+    "uuid": "b620282d-430c-4e61-8630-f9a692c702b9",
+    "ttft_stream_ms": 3841,
+    "time_to_request_ms": 2665,
+    "first_content_frame_ms": 3841,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 4591
+  },
+  {
+   "label": "plant2",
+   "wall": 10.6,
+   "cost": 0.0195293,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1844,
+   "cr": 4589,
+   "out": 62,
+   "text": "Noted: Priya Ramanathan is the on-call engineer for the payments service. The rest of log #2 was filler, and I'm still holding the staging database port (6543) from log #1.",
+   "raw": {
+    "duration_api_ms": 4608,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.0195293,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1844,
+     "cache_read_input_tokens": 4589,
+     "output_tokens": 62,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1844,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 62,
+       "cache_read_input_tokens": 4589,
+       "cache_creation_input_tokens": 1844,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1844
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 4,
+      "outputTokens": 216,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 6853,
+      "cacheCreationInputTokens": 4169,
+      "webSearchRequests": 0,
+      "costUSD": 0.0195293,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: Priya Ramanathan is the on-call engineer for the payments service. The rest of log #2 was filler, and I'm still holding the staging database port (6543) from log #1.",
+    "ttft_ms": 2623,
+    "type": "result",
+    "duration_ms": 2811,
+    "uuid": "b9ff9876-7671-4cc3-8fab-a3267b785ff7",
+    "ttft_stream_ms": 2324,
+    "time_to_request_ms": 854,
+    "first_content_frame_ms": 2324,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 6435
+  },
+  {
+   "label": "plant3",
+   "wall": 7.6,
+   "cost": 0.027800599999999998,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1731,
+   "cr": 6433,
+   "out": 70,
+   "text": "Noted: the Q4 release codename is BLUE HERON. The rest of log #3 was filler, and I'm still tracking the staging DB port (6543) and Priya Ramanathan as payments on-call.",
+   "raw": {
+    "duration_api_ms": 6416,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.027800599999999998,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1731,
+     "cache_read_input_tokens": 6433,
+     "output_tokens": 70,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1731,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 70,
+       "cache_read_input_tokens": 6433,
+       "cache_creation_input_tokens": 1731,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1731
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 6,
+      "outputTokens": 286,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 13286,
+      "cacheCreationInputTokens": 5900,
+      "webSearchRequests": 0,
+      "costUSD": 0.027800599999999998,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the Q4 release codename is BLUE HERON. The rest of log #3 was filler, and I'm still tracking the staging DB port (6543) and Priya Ramanathan as payments on-call.",
+    "ttft_ms": 2232,
+    "type": "result",
+    "duration_ms": 2316,
+    "uuid": "67bf91c3-5017-474e-8222-4551911de138",
+    "ttft_stream_ms": 1968,
+    "time_to_request_ms": 462,
+    "first_content_frame_ms": 1968,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 8166
+  },
+  {
+   "label": "plant4",
+   "wall": 7.8,
+   "cost": 0.036581,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1755,
+   "cr": 8164,
+   "out": 94,
+   "text": "Noted: the new checkout is gated by the feature flag `ff_checkout_v7`. The rest of log #4 was filler, and I'm still tracking the staging DB port (6543), Priya Ramanathan as payments on-call, and the Q4 codename BLUE HERON.",
+   "raw": {
+    "duration_api_ms": 8185,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.036581,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1755,
+     "cache_read_input_tokens": 8164,
+     "output_tokens": 94,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1755,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 94,
+       "cache_read_input_tokens": 8164,
+       "cache_creation_input_tokens": 1755,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1755
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 8,
+      "outputTokens": 380,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 21450,
+      "cacheCreationInputTokens": 7655,
+      "webSearchRequests": 0,
+      "costUSD": 0.036581,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the new checkout is gated by the feature flag `ff_checkout_v7`. The rest of log #4 was filler, and I'm still tracking the staging DB port (6543), Priya Ramanathan as payments on-call, and the Q4 codename BLUE HERON.",
+    "ttft_ms": 2801,
+    "type": "result",
+    "duration_ms": 2909,
+    "uuid": "7a69631c-4631-46aa-86dc-0fa522f2deae",
+    "ttft_stream_ms": 2299,
+    "time_to_request_ms": 1113,
+    "first_content_frame_ms": 2299,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 9921
+  },
+  {
+   "label": "plant5",
+   "wall": 8.0,
+   "cost": 0.0460869,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1830,
+   "cr": 9919,
+   "out": 119,
+   "text": "Noted: the nightly backups go to the S3 bucket `acme-bkp-ap-south-1-0419`. The rest of log #5 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, and the `ff_checkout_v7` checkout flag.",
+   "raw": {
+    "duration_api_ms": 10231,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.0460869,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1830,
+     "cache_read_input_tokens": 9919,
+     "output_tokens": 119,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1830,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 119,
+       "cache_read_input_tokens": 9919,
+       "cache_creation_input_tokens": 1830,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1830
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 10,
+      "outputTokens": 499,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 31369,
+      "cacheCreationInputTokens": 9485,
+      "webSearchRequests": 0,
+      "costUSD": 0.0460869,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the nightly backups go to the S3 bucket `acme-bkp-ap-south-1-0419`. The rest of log #5 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, and the `ff_checkout_v7` checkout flag.",
+    "ttft_ms": 2816,
+    "type": "result",
+    "duration_ms": 3065,
+    "uuid": "ff76458e-a3f6-407a-b785-fb3da8787e91",
+    "ttft_stream_ms": 2143,
+    "time_to_request_ms": 906,
+    "first_content_frame_ms": 2144,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 11751
+  },
+  {
+   "label": "plant6",
+   "wall": 11.9,
+   "cost": 0.055965799999999996,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1845,
+   "cr": 11749,
+   "out": 132,
+   "text": "Noted: Node is pinned to 20.11.1 because 20.12 broke the build. The rest of log #6 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, and the backup bucket `acme-bkp-ap-south-1-0419`.",
+   "raw": {
+    "duration_api_ms": 12111,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.055965799999999996,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1845,
+     "cache_read_input_tokens": 11749,
+     "output_tokens": 132,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1845,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 132,
+       "cache_read_input_tokens": 11749,
+       "cache_creation_input_tokens": 1845,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1845
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 12,
+      "outputTokens": 631,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 43118,
+      "cacheCreationInputTokens": 11330,
+      "webSearchRequests": 0,
+      "costUSD": 0.055965799999999996,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: Node is pinned to 20.11.1 because 20.12 broke the build. The rest of log #6 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, and the backup bucket `acme-bkp-ap-south-1-0419`.",
+    "ttft_ms": 3192,
+    "type": "result",
+    "duration_ms": 3308,
+    "uuid": "9c677097-65ac-4110-b5b9-4eeca82a6b34",
+    "ttft_stream_ms": 2609,
+    "time_to_request_ms": 1411,
+    "first_content_frame_ms": 2629,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 13596
+  },
+  {
+   "label": "plant7",
+   "wall": 14.5,
+   "cost": 0.06598319999999999,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1826,
+   "cr": 13594,
+   "out": 135,
+   "text": "Noted: the webhook sender's max retry count is 7. The rest of log #7 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, and the Node 20.11.1 pin.",
+   "raw": {
+    "duration_api_ms": 14487,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.06598319999999999,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1826,
+     "cache_read_input_tokens": 13594,
+     "output_tokens": 135,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1826,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 135,
+       "cache_read_input_tokens": 13594,
+       "cache_creation_input_tokens": 1826,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1826
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 14,
+      "outputTokens": 766,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 56712,
+      "cacheCreationInputTokens": 13156,
+      "webSearchRequests": 0,
+      "costUSD": 0.06598319999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the webhook sender's max retry count is 7. The rest of log #7 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, and the Node 20.11.1 pin.",
+    "ttft_ms": 4254,
+    "type": "result",
+    "duration_ms": 4543,
+    "uuid": "523b2045-a5a4-4ddb-960f-900be49f708d",
+    "ttft_stream_ms": 3671,
+    "time_to_request_ms": 2231,
+    "first_content_frame_ms": 3671,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 15422
+  },
+  {
+   "label": "plant8",
+   "wall": 11.4,
+   "cost": 0.0765052,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1844,
+   "cr": 15420,
+   "out": 160,
+   "text": "Noted: the 3 March incident was caused by an expired TLS cert on `api-gw-2`. The rest of log #8 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, and the webhook max retry of 7.",
+   "raw": {
+    "duration_api_ms": 16681,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.0765052,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1844,
+     "cache_read_input_tokens": 15420,
+     "output_tokens": 160,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1844,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 160,
+       "cache_read_input_tokens": 15420,
+       "cache_creation_input_tokens": 1844,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1844
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 16,
+      "outputTokens": 926,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 72132,
+      "cacheCreationInputTokens": 15000,
+      "webSearchRequests": 0,
+      "costUSD": 0.0765052,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the 3 March incident was caused by an expired TLS cert on `api-gw-2`. The rest of log #8 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, and the webhook max retry of 7.",
+    "ttft_ms": 3461,
+    "type": "result",
+    "duration_ms": 3661,
+    "uuid": "7f1219be-191b-4b9f-bd5b-28197097af9f",
+    "ttft_stream_ms": 2840,
+    "time_to_request_ms": 1417,
+    "first_content_frame_ms": 2845,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 17266
+  },
+  {
+   "label": "plant9",
+   "wall": 9.5,
+   "cost": 0.0875156,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1880,
+   "cr": 17264,
+   "out": 176,
+   "text": "Noted: Zentrix Ltd has a custom rate limit of 1800 requests per minute. The rest of log #9 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, and the `api-gw-2` TLS cert incident.",
+   "raw": {
+    "duration_api_ms": 18776,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.0875156,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1880,
+     "cache_read_input_tokens": 17264,
+     "output_tokens": 176,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1880,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 176,
+       "cache_read_input_tokens": 17264,
+       "cache_creation_input_tokens": 1880,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1880
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 18,
+      "outputTokens": 1102,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 89396,
+      "cacheCreationInputTokens": 16880,
+      "webSearchRequests": 0,
+      "costUSD": 0.0875156,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: Zentrix Ltd has a custom rate limit of 1800 requests per minute. The rest of log #9 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, and the `api-gw-2` TLS cert incident.",
+    "ttft_ms": 2687,
+    "type": "result",
+    "duration_ms": 2800,
+    "uuid": "624188bf-ad7f-42a6-87be-319ce0314676",
+    "ttft_stream_ms": 1969,
+    "time_to_request_ms": 670,
+    "first_content_frame_ms": 1970,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 19146
+  },
+  {
+   "label": "plant10",
+   "wall": 12.9,
+   "cost": 0.098784,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1870,
+   "cr": 19144,
+   "out": 187,
+   "text": "Noted: the `reindex-search` cron job runs at 02:15 UTC. The rest of log #10 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, and Zentrix's 1800 req/min limit.",
+   "raw": {
+    "duration_api_ms": 21138,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.098784,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1870,
+     "cache_read_input_tokens": 19144,
+     "output_tokens": 187,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1870,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 187,
+       "cache_read_input_tokens": 19144,
+       "cache_creation_input_tokens": 1870,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1870
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 20,
+      "outputTokens": 1289,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 108540,
+      "cacheCreationInputTokens": 18750,
+      "webSearchRequests": 0,
+      "costUSD": 0.098784,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the `reindex-search` cron job runs at 02:15 UTC. The rest of log #10 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, and Zentrix's 1800 req/min limit.",
+    "ttft_ms": 4992,
+    "type": "result",
+    "duration_ms": 5205,
+    "uuid": "67688a6c-b893-4224-9aae-b15cf8d01ee5",
+    "ttft_stream_ms": 4217,
+    "time_to_request_ms": 2787,
+    "first_content_frame_ms": 4231,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 21016
+  },
+  {
+   "label": "plant11",
+   "wall": 9.2,
+   "cost": 0.1105654,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1914,
+   "cr": 21014,
+   "out": 202,
+   "text": "Noted: the Grafana latency dashboard ID is 88213. The rest of log #11 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, Zentrix's 1800 req/min limit, and the `reindex-search` cron at 02:15 UTC.",
+   "raw": {
+    "duration_api_ms": 23931,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.1105654,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1914,
+     "cache_read_input_tokens": 21014,
+     "output_tokens": 202,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1914,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 202,
+       "cache_read_input_tokens": 21014,
+       "cache_creation_input_tokens": 1914,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1914
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 22,
+      "outputTokens": 1491,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 129554,
+      "cacheCreationInputTokens": 20664,
+      "webSearchRequests": 0,
+      "costUSD": 0.1105654,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the Grafana latency dashboard ID is 88213. The rest of log #11 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, Zentrix's 1800 req/min limit, and the `reindex-search` cron at 02:15 UTC.",
+    "ttft_ms": 3255,
+    "type": "result",
+    "duration_ms": 3553,
+    "uuid": "466d56c9-286d-4645-a20a-57cd01489e5b",
+    "ttft_stream_ms": 2231,
+    "time_to_request_ms": 662,
+    "first_content_frame_ms": 2231,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 22930
+  },
+  {
+   "label": "plant12",
+   "wall": 12.5,
+   "cost": 0.1228122,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1920,
+   "cr": 22928,
+   "out": 227,
+   "text": "Noted: the legacy endpoint `/v1/orders/export` will be removed on 2026-11-30. The rest of log #12 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, Zentrix's 1800 req/min limit, the `reindex-search` cron at 02:15 UTC, and Grafana dashboard 88213.",
+   "raw": {
+    "duration_api_ms": 26521,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.1228122,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1920,
+     "cache_read_input_tokens": 22928,
+     "output_tokens": 227,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1920,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 227,
+       "cache_read_input_tokens": 22928,
+       "cache_creation_input_tokens": 1920,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1920
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 24,
+      "outputTokens": 1718,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 152482,
+      "cacheCreationInputTokens": 22584,
+      "webSearchRequests": 0,
+      "costUSD": 0.1228122,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the legacy endpoint `/v1/orders/export` will be removed on 2026-11-30. The rest of log #12 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, Zentrix's 1800 req/min limit, the `reindex-search` cron at 02:15 UTC, and Grafana dashboard 88213.",
+    "ttft_ms": 3724,
+    "type": "result",
+    "duration_ms": 3982,
+    "uuid": "2fb1d236-b981-4a02-87e0-eddc0d757047",
+    "ttft_stream_ms": 2774,
+    "time_to_request_ms": 1302,
+    "first_content_frame_ms": 2774,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 24850
+  },
+  {
+   "label": "plant13",
+   "wall": 12.1,
+   "cost": 0.135313,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1918,
+   "cr": 24848,
+   "out": 234,
+   "text": "Noted: the JWT signing key rotates every 45 days. The rest of log #13 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, Zentrix's 1800 req/min limit, the `reindex-search` cron at 02:15 UTC, Grafana dashboard 88213, and the `/v1/orders/export` removal on 2026-11-30.",
+   "raw": {
+    "duration_api_ms": 29258,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.135313,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1918,
+     "cache_read_input_tokens": 24848,
+     "output_tokens": 234,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1918,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 234,
+       "cache_read_input_tokens": 24848,
+       "cache_creation_input_tokens": 1918,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1918
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 26,
+      "outputTokens": 1952,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 177330,
+      "cacheCreationInputTokens": 24502,
+      "webSearchRequests": 0,
+      "costUSD": 0.135313,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the JWT signing key rotates every 45 days. The rest of log #13 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, Zentrix's 1800 req/min limit, the `reindex-search` cron at 02:15 UTC, Grafana dashboard 88213, and the `/v1/orders/export` removal on 2026-11-30.",
+    "ttft_ms": 4182,
+    "type": "result",
+    "duration_ms": 4476,
+    "uuid": "e09765ee-c0f1-4881-9dcc-1c53830ef248",
+    "ttft_stream_ms": 3157,
+    "time_to_request_ms": 1636,
+    "first_content_frame_ms": 3157,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 26768
+  },
+  {
+   "label": "plant14",
+   "wall": 10.1,
+   "cost": 0.1482136,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1950,
+   "cr": 26766,
+   "out": 242,
+   "text": "Noted: the search API's default page size is 37. The rest of log #14 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, Zentrix's 1800 req/min limit, the `reindex-search` cron at 02:15 UTC, Grafana dashboard 88213, the `/v1/orders/export` removal on 2026-11-30, and the 45-day JWT key rotation.",
+   "raw": {
+    "duration_api_ms": 31783,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.1482136,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1950,
+     "cache_read_input_tokens": 26766,
+     "output_tokens": 242,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1950,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 242,
+       "cache_read_input_tokens": 26766,
+       "cache_creation_input_tokens": 1950,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1950
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 28,
+      "outputTokens": 2194,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 204096,
+      "cacheCreationInputTokens": 26452,
+      "webSearchRequests": 0,
+      "costUSD": 0.1482136,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the search API's default page size is 37. The rest of log #14 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, Zentrix's 1800 req/min limit, the `reindex-search` cron at 02:15 UTC, Grafana dashboard 88213, the `/v1/orders/export` removal on 2026-11-30, and the 45-day JWT key rotation.",
+    "ttft_ms": 3653,
+    "type": "result",
+    "duration_ms": 3857,
+    "uuid": "7a0dda24-66f0-4d0c-b0c8-23b26778a65c",
+    "ttft_stream_ms": 2635,
+    "time_to_request_ms": 1269,
+    "first_content_frame_ms": 2635,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 28718
+  },
+  {
+   "label": "plant15",
+   "wall": 7.3,
+   "cost": 0.16136520000000001,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1909,
+   "cr": 28716,
+   "out": 264,
+   "text": "Noted: the Pune warehouse has the internal site code `PNQ-W3`. The rest of log #15 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, Zentrix's 1800 req/min limit, the `reindex-search` cron at 02:15 UTC, Grafana dashboard 88213, the `/v1/orders/export` removal on 2026-11-30, the 45-day JWT key rotation, and the search API page size of 37.",
+   "raw": {
+    "duration_api_ms": 34421,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.16136520000000001,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1909,
+     "cache_read_input_tokens": 28716,
+     "output_tokens": 264,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1909,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 264,
+       "cache_read_input_tokens": 28716,
+       "cache_creation_input_tokens": 1909,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1909
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 30,
+      "outputTokens": 2458,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 232812,
+      "cacheCreationInputTokens": 28361,
+      "webSearchRequests": 0,
+      "costUSD": 0.16136520000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Noted: the Pune warehouse has the internal site code `PNQ-W3`. The rest of log #15 was filler, and I'm still holding the staging DB port (6543), Priya Ramanathan as payments on-call, the Q4 codename BLUE HERON, the `ff_checkout_v7` flag, the backup bucket `acme-bkp-ap-south-1-0419`, the Node 20.11.1 pin, the webhook max retry of 7, the `api-gw-2` TLS cert incident, Zentrix's 1800 req/min limit, the `reindex-search` cron at 02:15 UTC, Grafana dashboard 88213, the `/v1/orders/export` removal on 2026-11-30, the 45-day JWT key rotation, and the search API page size of 37.",
+    "ttft_ms": 3133,
+    "type": "result",
+    "duration_ms": 3167,
+    "uuid": "76a0c976-6041-44e8-bd87-d9ec69a87ab4",
+    "ttft_stream_ms": 2095,
+    "time_to_request_ms": 549,
+    "first_content_frame_ms": 2096,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 30627
+  },
+  {
+   "label": "compact",
+   "wall": 16.7,
+   "cost": 0.19418580000000002,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 0,
+   "cw": 0,
+   "cr": 0,
+   "out": 0,
+   "text": "",
+   "raw": {
+    "is_error": false,
+    "duration_api_ms": 0,
+    "num_turns": 0,
+    "stop_reason": null,
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.19418580000000002,
+    "usage": {
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "input_tokens": 0,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "output_tokens": 0,
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "",
+     "iterations": [],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 3692,
+      "outputTokens": 4660,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 261528,
+      "cacheCreationInputTokens": 28603,
+      "webSearchRequests": 0,
+      "costUSD": 0.19418580000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "subtype": "success",
+    "result": "",
+    "local_command": "compact",
+    "type": "result",
+    "duration_ms": 14877,
+    "uuid": "fa121924-836a-4f82-9176-bf0e8b2fc5a0",
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 0
+  },
+  {
+   "label": "post1",
+   "wall": 4.6,
+   "cost": 0.2104302,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 3841,
+   "cr": 2264,
+   "out": 65,
+   "text": "Log #16 had no key fact, just filler, so there's nothing new to record. All 15 earlier facts are still held, including the latest, the Pune warehouse site code `PNQ-W3`.",
+   "raw": {
+    "duration_api_ms": 50456,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.2104302,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 3841,
+     "cache_read_input_tokens": 2264,
+     "output_tokens": 65,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 3841,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 65,
+       "cache_read_input_tokens": 2264,
+       "cache_creation_input_tokens": 3841,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 3841
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 3694,
+      "outputTokens": 4725,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 263792,
+      "cacheCreationInputTokens": 32444,
+      "webSearchRequests": 0,
+      "costUSD": 0.2104302,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Log #16 had no key fact, just filler, so there's nothing new to record. All 15 earlier facts are still held, including the latest, the Pune warehouse site code `PNQ-W3`.",
+    "ttft_ms": 2003,
+    "type": "result",
+    "duration_ms": 2043,
+    "uuid": "f7bb505f-1c22-4df8-b797-1993aa9ab22f",
+    "ttft_stream_ms": 1528,
+    "time_to_request_ms": 233,
+    "first_content_frame_ms": 1528,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 6107
+  },
+  {
+   "label": "post2",
+   "wall": 5.1,
+   "cost": 0.21771680000000002,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1524,
+   "cr": 5766,
+   "out": 61,
+   "text": "Log #17 was all filler with no key fact, so nothing new to record. All 15 earlier facts are still held, most recently the Pune warehouse site code `PNQ-W3`.",
+   "raw": {
+    "duration_api_ms": 52408,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.21771680000000002,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1524,
+     "cache_read_input_tokens": 5766,
+     "output_tokens": 61,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1524,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 61,
+       "cache_read_input_tokens": 5766,
+       "cache_creation_input_tokens": 1524,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1524
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 3696,
+      "outputTokens": 4786,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 269558,
+      "cacheCreationInputTokens": 33968,
+      "webSearchRequests": 0,
+      "costUSD": 0.21771680000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Log #17 was all filler with no key fact, so nothing new to record. All 15 earlier facts are still held, most recently the Pune warehouse site code `PNQ-W3`.",
+    "ttft_ms": 2059,
+    "type": "result",
+    "duration_ms": 2116,
+    "uuid": "9fdab9ee-cd97-48ed-b3b9-3a3655c6dfb5",
+    "ttft_stream_ms": 1775,
+    "time_to_request_ms": 152,
+    "first_content_frame_ms": 1775,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 7292
+  },
+  {
+   "label": "post3",
+   "wall": 5.7,
+   "cost": 0.22395330000000002,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 1219,
+   "cr": 7265,
+   "out": 63,
+   "text": "Log #18 was all filler with no key fact, so there's nothing new to record. All 15 earlier facts are still held, most recently the Pune warehouse site code `PNQ-W3`.",
+   "raw": {
+    "duration_api_ms": 56447,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.22395330000000002,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 1219,
+     "cache_read_input_tokens": 7265,
+     "output_tokens": 63,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 1219,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 63,
+       "cache_read_input_tokens": 7265,
+       "cache_creation_input_tokens": 1219,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 1219
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 3698,
+      "outputTokens": 4849,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 276823,
+      "cacheCreationInputTokens": 35187,
+      "webSearchRequests": 0,
+      "costUSD": 0.22395330000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Log #18 was all filler with no key fact, so there's nothing new to record. All 15 earlier facts are still held, most recently the Pune warehouse site code `PNQ-W3`.",
+    "ttft_ms": 4289,
+    "type": "result",
+    "duration_ms": 4314,
+    "uuid": "77c54179-05e1-4626-b025-77848d2a10ac",
+    "ttft_stream_ms": 4006,
+    "time_to_request_ms": 275,
+    "first_content_frame_ms": 4006,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 8486
+  },
+  {
+   "label": "quiz",
+   "wall": 3.4,
+   "cost": 0.2286652,
+   "session": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+   "inp": 2,
+   "cw": 428,
+   "cr": 8459,
+   "out": 215,
+   "text": "Q1: 6543\nQ2: Priya Ramanathan\nQ3: BLUE HERON\nQ4: `ff_checkout_v7`\nQ5: `acme-bkp-ap-south-1-0419`\nQ6: Node 20.11.1 (pinned because 20.12 broke the build)\nQ7: 7\nQ8: An expired TLS cert on `api-gw-2`\nQ9: 1800 requests per minute\nQ10: Daily at 02:15 UTC\nQ11: 88213\nQ12: 2026-11-30\nQ13: Every 45 days\nQ14: 37\nQ15: `PNQ-W3`",
+   "raw": {
+    "duration_api_ms": 58534,
+    "stop_reason": "end_turn",
+    "session_id": "f7fdd0de-3ade-48de-89f6-c07803587d24",
+    "total_cost_usd": 0.2286652,
+    "usage": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 428,
+     "cache_read_input_tokens": 8459,
+     "output_tokens": 215,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+     },
+     "service_tier": "standard",
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 428,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "inference_geo": "global",
+     "iterations": [
+      {
+       "input_tokens": 2,
+       "output_tokens": 215,
+       "cache_read_input_tokens": 8459,
+       "cache_creation_input_tokens": 428,
+       "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 428
+       },
+       "type": "message"
+      }
+     ],
+     "speed": "standard",
+     "fallback_credit": null
+    },
+    "modelUsage": {
+     "claude-sonnet-5-5": {
+      "inputTokens": 3700,
+      "outputTokens": 5064,
+      "thinkingTokens": 116,
+      "cacheReadInputTokens": 285282,
+      "cacheCreationInputTokens": 35615,
+      "webSearchRequests": 0,
+      "costUSD": 0.2286652,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+     }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+     "spawned": 0,
+     "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+     },
+     "started_in_background": 0,
+     "max_depth": 0,
+     "spawned_by_subagents": 0,
+     "completed": 0,
+     "failed": 0,
+     "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+     },
+     "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+     },
+     "by_type": {}
+    },
+    "safety_stops": 0,
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "Q1: 6543\nQ2: Priya Ramanathan\nQ3: BLUE HERON\nQ4: `ff_checkout_v7`\nQ5: `acme-bkp-ap-south-1-0419`\nQ6: Node 20.11.1 (pinned because 20.12 broke the build)\nQ7: 7\nQ8: An expired TLS cert on `api-gw-2`\nQ9: 1800 requests per minute\nQ10: Daily at 02:15 UTC\nQ11: 88213\nQ12: 2026-11-30\nQ13: Every 45 days\nQ14: 37\nQ15: `PNQ-W3`",
+    "ttft_ms": 2200,
+    "type": "result",
+    "duration_ms": 2223,
+    "uuid": "14a29b2a-96e0-4359-afb6-0352b29ea810",
+    "ttft_stream_ms": 1266,
+    "time_to_request_ms": 137,
+    "first_content_frame_ms": 1266,
+    "queued_turn_count": 0,
+    "result_index": 0
+   },
+   "ctx": 8889
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "full": {
+  "recall": 15,
+  "cost_total": 0.1653,
+  "cost_plant": 0.1344,
+  "cost_branch": 0,
+  "cost_after": 0.0309,
+  "compact_hidden": 0,
+  "ctx_quiz": 32830.3333,
+  "ctx_before_branch": 28979.3333,
+  "errors": 0,
+  "n": 3
+ },
+ "compact": {
+  "recall": 15,
+  "cost_total": 0.2043,
+  "cost_plant": 0.1453,
+  "cost_branch": 0.0271,
+  "cost_after": 0.032,
+  "compact_hidden": 0.0271,
+  "ctx_quiz": 8461,
+  "ctx_before_branch": 29493.6667,
+  "errors": 0,
+  "n": 3
+ },
+ "manual": {
+  "recall": 15,
+  "cost_total": 0.1831,
+  "cost_plant": 0.1451,
+  "cost_branch": 0.0151,
+  "cost_after": 0.0228,
+  "compact_hidden": 0,
+  "ctx_quiz": 7405.6667,
+  "ctx_before_branch": 29484,
+  "errors": 0,
+  "n": 3
+ }
+}

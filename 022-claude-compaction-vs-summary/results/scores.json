@@ -1,0 +1,866 @@
+[
+ {
+  "arm": "compact",
+  "rep": 1,
+  "recall": 15,
+  "missed": [],
+  "cost_total": 0.2286652,
+  "cost_plant": 0.16136520000000001,
+  "cost_branch": 0.032820600000000005,
+  "cost_after": 0.03447939999999999,
+  "compact_hidden": 0.032820600000000005,
+  "ctx_quiz": 8889,
+  "ctx_before_branch": 30627,
+  "ctx_series": [
+   [
+    "plant1",
+    4591
+   ],
+   [
+    "plant2",
+    6435
+   ],
+   [
+    "plant3",
+    8166
+   ],
+   [
+    "plant4",
+    9921
+   ],
+   [
+    "plant5",
+    11751
+   ],
+   [
+    "plant6",
+    13596
+   ],
+   [
+    "plant7",
+    15422
+   ],
+   [
+    "plant8",
+    17266
+   ],
+   [
+    "plant9",
+    19146
+   ],
+   [
+    "plant10",
+    21016
+   ],
+   [
+    "plant11",
+    22930
+   ],
+   [
+    "plant12",
+    24850
+   ],
+   [
+    "plant13",
+    26768
+   ],
+   [
+    "plant14",
+    28718
+   ],
+   [
+    "plant15",
+    30627
+   ],
+   [
+    "compact",
+    0
+   ],
+   [
+    "post1",
+    6107
+   ],
+   [
+    "post2",
+    7292
+   ],
+   [
+    "post3",
+    8486
+   ],
+   [
+    "quiz",
+    8889
+   ]
+  ],
+  "errors": 0
+ },
+ {
+  "arm": "compact",
+  "rep": 2,
+  "recall": 15,
+  "missed": [],
+  "cost_total": 0.19161999999999998,
+  "cost_plant": 0.1368332,
+  "cost_branch": 0.02396290000000001,
+  "cost_after": 0.030823899999999987,
+  "compact_hidden": 0.02396290000000001,
+  "ctx_quiz": 8271,
+  "ctx_before_branch": 28877,
+  "ctx_series": [
+   [
+    "plant1",
+    4578
+   ],
+   [
+    "plant2",
+    6315
+   ],
+   [
+    "plant3",
+    8036
+   ],
+   [
+    "plant4",
+    9781
+   ],
+   [
+    "plant5",
+    11501
+   ],
+   [
+    "plant6",
+    13232
+   ],
+   [
+    "plant7",
+    14930
+   ],
+   [
+    "plant8",
+    16622
+   ],
+   [
+    "plant9",
+    18430
+   ],
+   [
+    "plant10",
+    20193
+   ],
+   [
+    "plant11",
+    21959
+   ],
+   [
+    "plant12",
+    23720
+   ],
+   [
+    "plant13",
+    25477
+   ],
+   [
+    "plant14",
+    27186
+   ],
+   [
+    "plant15",
+    28877
+   ],
+   [
+    "compact",
+    0
+   ],
+   [
+    "post1",
+    5603
+   ],
+   [
+    "post2",
+    6750
+   ],
+   [
+    "post3",
+    7897
+   ],
+   [
+    "quiz",
+    8271
+   ]
+  ],
+  "errors": 0
+ },
+ {
+  "arm": "compact",
+  "rep": 3,
+  "recall": 15,
+  "missed": [],
+  "cost_total": 0.1927269,
+  "cost_plant": 0.13756390000000002,
+  "cost_branch": 0.02454880000000001,
+  "cost_after": 0.03061419999999998,
+  "compact_hidden": 0.02454880000000001,
+  "ctx_quiz": 8223,
+  "ctx_before_branch": 28977,
+  "ctx_series": [
+   [
+    "plant1",
+    4594
+   ],
+   [
+    "plant2",
+    6330
+   ],
+   [
+    "plant3",
+    8060
+   ],
+   [
+    "plant4",
+    9806
+   ],
+   [
+    "plant5",
+    11568
+   ],
+   [
+    "plant6",
+    13344
+   ],
+   [
+    "plant7",
+    15054
+   ],
+   [
+    "plant8",
+    16783
+   ],
+   [
+    "plant9",
+    18548
+   ],
+   [
+    "plant10",
+    20281
+   ],
+   [
+    "plant11",
+    22020
+   ],
+   [
+    "plant12",
+    23783
+   ],
+   [
+    "plant13",
+    25476
+   ],
+   [
+    "plant14",
+    27220
+   ],
+   [
+    "plant15",
+    28977
+   ],
+   [
+    "compact",
+    0
+   ],
+   [
+    "post1",
+    5547
+   ],
+   [
+    "post2",
+    6675
+   ],
+   [
+    "post3",
+    7851
+   ],
+   [
+    "quiz",
+    8223
+   ]
+  ],
+  "errors": 0
+ },
+ {
+  "arm": "full",
+  "rep": 1,
+  "recall": 15,
+  "missed": [],
+  "cost_total": 0.16759069999999998,
+  "cost_plant": 0.1370193,
+  "cost_branch": 0,
+  "cost_after": 0.03057139999999997,
+  "compact_hidden": 0,
+  "ctx_quiz": 32959,
+  "ctx_before_branch": 29093,
+  "ctx_series": [
+   [
+    "plant1",
+    4591
+   ],
+   [
+    "plant2",
+    6462
+   ],
+   [
+    "plant3",
+    8168
+   ],
+   [
+    "plant4",
+    9884
+   ],
+   [
+    "plant5",
+    11660
+   ],
+   [
+    "plant6",
+    13433
+   ],
+   [
+    "plant7",
+    15166
+   ],
+   [
+    "plant8",
+    16904
+   ],
+   [
+    "plant9",
+    18667
+   ],
+   [
+    "plant10",
+    20403
+   ],
+   [
+    "plant11",
+    22167
+   ],
+   [
+    "plant12",
+    23918
+   ],
+   [
+    "plant13",
+    25654
+   ],
+   [
+    "plant14",
+    27400
+   ],
+   [
+    "plant15",
+    29093
+   ],
+   [
+    "post1",
+    30294
+   ],
+   [
+    "post2",
+    31439
+   ],
+   [
+    "post3",
+    32596
+   ],
+   [
+    "quiz",
+    32959
+   ]
+  ],
+  "errors": 0
+ },
+ {
+  "arm": "full",
+  "rep": 2,
+  "recall": 15,
+  "missed": [],
+  "cost_total": 0.16778769999999998,
+  "cost_plant": 0.13683379999999998,
+  "cost_branch": 0,
+  "cost_after": 0.030953900000000006,
+  "compact_hidden": 0,
+  "ctx_quiz": 32715,
+  "ctx_before_branch": 28877,
+  "ctx_series": [
+   [
+    "plant1",
+    4578
+   ],
+   [
+    "plant2",
+    6316
+   ],
+   [
+    "plant3",
+    8037
+   ],
+   [
+    "plant4",
+    9782
+   ],
+   [
+    "plant5",
+    11502
+   ],
+   [
+    "plant6",
+    13233
+   ],
+   [
+    "plant7",
+    14931
+   ],
+   [
+    "plant8",
+    16622
+   ],
+   [
+    "plant9",
+    18430
+   ],
+   [
+    "plant10",
+    20193
+   ],
+   [
+    "plant11",
+    21959
+   ],
+   [
+    "plant12",
+    23720
+   ],
+   [
+    "plant13",
+    25477
+   ],
+   [
+    "plant14",
+    27186
+   ],
+   [
+    "plant15",
+    28877
+   ],
+   [
+    "post1",
+    30049
+   ],
+   [
+    "post2",
+    31198
+   ],
+   [
+    "post3",
+    32343
+   ],
+   [
+    "quiz",
+    32715
+   ]
+  ],
+  "errors": 0
+ },
+ {
+  "arm": "full",
+  "rep": 3,
+  "recall": 15,
+  "missed": [],
+  "cost_total": 0.16040239999999997,
+  "cost_plant": 0.12931939999999997,
+  "cost_branch": 0,
+  "cost_after": 0.031083,
+  "compact_hidden": 0,
+  "ctx_quiz": 32817,
+  "ctx_before_branch": 28968,
+  "ctx_series": [
+   [
+    "plant1",
+    4594
+   ],
+   [
+    "plant2",
+    6330
+   ],
+   [
+    "plant3",
+    8060
+   ],
+   [
+    "plant4",
+    9806
+   ],
+   [
+    "plant5",
+    11565
+   ],
+   [
+    "plant6",
+    13339
+   ],
+   [
+    "plant7",
+    15049
+   ],
+   [
+    "plant8",
+    16778
+   ],
+   [
+    "plant9",
+    18543
+   ],
+   [
+    "plant10",
+    20276
+   ],
+   [
+    "plant11",
+    22013
+   ],
+   [
+    "plant12",
+    23776
+   ],
+   [
+    "plant13",
+    25467
+   ],
+   [
+    "plant14",
+    27211
+   ],
+   [
+    "plant15",
+    28968
+   ],
+   [
+    "post1",
+    30139
+   ],
+   [
+    "post2",
+    31267
+   ],
+   [
+    "post3",
+    32444
+   ],
+   [
+    "quiz",
+    32817
+   ]
+  ],
+  "errors": 0
+ },
+ {
+  "arm": "manual",
+  "rep": 1,
+  "recall": 15,
+  "missed": [],
+  "cost_total": 0.1979837,
+  "cost_plant": 0.15948600000000002,
+  "cost_branch": 0.015604799999999988,
+  "cost_after": 0.0228929,
+  "compact_hidden": 0,
+  "ctx_quiz": 7420,
+  "ctx_before_branch": 30506,
+  "ctx_series": [
+   [
+    "plant1",
+    4591
+   ],
+   [
+    "plant2",
+    6494
+   ],
+   [
+    "plant3",
+    8212
+   ],
+   [
+    "plant4",
+    9951
+   ],
+   [
+    "plant5",
+    11765
+   ],
+   [
+    "plant6",
+    13595
+   ],
+   [
+    "plant7",
+    15410
+   ],
+   [
+    "plant8",
+    17237
+   ],
+   [
+    "plant9",
+    19099
+   ],
+   [
+    "plant10",
+    20960
+   ],
+   [
+    "plant11",
+    22860
+   ],
+   [
+    "plant12",
+    24767
+   ],
+   [
+    "plant13",
+    26673
+   ],
+   [
+    "plant14",
+    28610
+   ],
+   [
+    "plant15",
+    30506
+   ],
+   [
+    "handoff",
+    30851
+   ],
+   [
+    "fresh_seed",
+    3466
+   ],
+   [
+    "post1",
+    4697
+   ],
+   [
+    "post2",
+    5865
+   ],
+   [
+    "post3",
+    7043
+   ],
+   [
+    "quiz",
+    7420
+   ]
+  ],
+  "errors": 0
+ },
+ {
+  "arm": "manual",
+  "rep": 2,
+  "recall": 15,
+  "missed": [],
+  "cost_total": 0.17432289999999998,
+  "cost_plant": 0.13703359999999998,
+  "cost_branch": 0.015020699999999998,
+  "cost_after": 0.0222686,
+  "compact_hidden": 0,
+  "ctx_quiz": 7368,
+  "ctx_before_branch": 28890,
+  "ctx_series": [
+   [
+    "plant1",
+    4578
+   ],
+   [
+    "plant2",
+    6316
+   ],
+   [
+    "plant3",
+    8038
+   ],
+   [
+    "plant4",
+    9784
+   ],
+   [
+    "plant5",
+    11505
+   ],
+   [
+    "plant6",
+    13237
+   ],
+   [
+    "plant7",
+    14936
+   ],
+   [
+    "plant8",
+    16628
+   ],
+   [
+    "plant9",
+    18437
+   ],
+   [
+    "plant10",
+    20201
+   ],
+   [
+    "plant11",
+    21968
+   ],
+   [
+    "plant12",
+    23730
+   ],
+   [
+    "plant13",
+    25488
+   ],
+   [
+    "plant14",
+    27198
+   ],
+   [
+    "plant15",
+    28890
+   ],
+   [
+    "handoff",
+    29022
+   ],
+   [
+    "fresh_seed",
+    3484
+   ],
+   [
+    "post1",
+    4697
+   ],
+   [
+    "post2",
+    5851
+   ],
+   [
+    "post3",
+    6996
+   ],
+   [
+    "quiz",
+    7368
+   ]
+  ],
+  "errors": 0
+ },
+ {
+  "arm": "manual",
+  "rep": 3,
+  "recall": 15,
+  "missed": [],
+  "cost_total": 0.17689549999999998,
+  "cost_plant": 0.1387631,
+  "cost_branch": 0.01480129999999999,
+  "cost_after": 0.0233311,
+  "compact_hidden": 0,
+  "ctx_quiz": 7429,
+  "ctx_before_branch": 29056,
+  "ctx_series": [
+   [
+    "plant1",
+    4594
+   ],
+   [
+    "plant2",
+    6339
+   ],
+   [
+    "plant3",
+    8075
+   ],
+   [
+    "plant4",
+    9827
+   ],
+   [
+    "plant5",
+    11592
+   ],
+   [
+    "plant6",
+    13372
+   ],
+   [
+    "plant7",
+    15088
+   ],
+   [
+    "plant8",
+    16824
+   ],
+   [
+    "plant9",
+    18595
+   ],
+   [
+    "plant10",
+    20334
+   ],
+   [
+    "plant11",
+    22077
+   ],
+   [
+    "plant12",
+    23846
+   ],
+   [
+    "plant13",
+    25543
+   ],
+   [
+    "plant14",
+    27293
+   ],
+   [
+    "plant15",
+    29056
+   ],
+   [
+    "handoff",
+    29194
+   ],
+   [
+    "fresh_seed",
+    3469
+   ],
+   [
+    "post1",
+    4675
+   ],
+   [
+    "post2",
+    5834
+   ],
+   [
+    "post3",
+    7035
+   ],
+   [
+    "quiz",
+    7429
+   ]
+  ],
+  "errors": 0
+ }
+]
